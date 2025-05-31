@@ -1,0 +1,77 @@
+Executando combinação ID: 4
+Parâmetros:
+ generations=10
+ pop_size=10
+ crossover_prob=0.8
+ mutation_prob=0.2
+ max_level=7
+ percentage_min_instances=0.05
+ node_is_leaf=0.5
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 76204.62 and nodeLowRepres = 1
+162 828 14 
+ ind 1 has perfdegrad = 92728.21 and nodeLowRepres = 0
+466 538 
+ ind 2 has perfdegrad = 64913.75 and nodeLowRepres = 1
+702 31 214 57 
+ ind 3 has perfdegrad = 78783.74 and nodeLowRepres = 3
+44 338 153 429 2 38 
+ ind 4 has perfdegrad = 92942.48 and nodeLowRepres = 0
+1004 
+ ind 5 has perfdegrad = 75943.62 and nodeLowRepres = 4
+226 232 4 6 517 18 1 
+ ind 6 has perfdegrad = 92852.81 and nodeLowRepres = 0
+950 54 
+ ind 7 has perfdegrad = 87198.90 and nodeLowRepres = 0
+101 65 838 
+ ind 8 has perfdegrad = 73160.72 and nodeLowRepres = 1
+188 402 4 78 332 
+ ind 9 has perfdegrad = 86881.90 and nodeLowRepres = 0
+515 489 
+------------------------------
+f0 = [2, 9]
+f1 = [8, 7]
+[Geração 0] Sem melhora consecutiva: 0
+[Geração 1] Sem melhora consecutiva: 1
+[Geração 2] Sem melhora consecutiva: 0
+[Geração 3] Sem melhora consecutiva: 0
+[Geração 4] Sem melhora consecutiva: 0
+[Geração 5] Sem melhora consecutiva: 1
+[Geração 6] Sem melhora consecutiva: 2
+[Geração 7] Sem melhora consecutiva: 3
+[Geração 8] Sem melhora consecutiva: 4
+[Geração 9] Sem melhora consecutiva: 5
+[Geração 10] Sem melhora consecutiva: 6
+[Geração 11] Sem melhora consecutiva: 7
+[Geração 12] Sem melhora consecutiva: 8
+[Geração 13] Sem melhora consecutiva: 9
+[Geração 14] Sem melhora consecutiva: 10
+ ind 0 has perfdegrad = 64913.75 and nodeLowRepres = 1
+31 702 214 57 
+ ind 1 has perfdegrad = 60596.36 and nodeLowRepres = 3
+702 31 214 43 14 
+ ind 2 has perfdegrad = 64913.75 and nodeLowRepres = 1
+702 31 214 57 
+ ind 3 has perfdegrad = 60596.36 and nodeLowRepres = 3
+702 31 214 43 14 
+ ind 4 has perfdegrad = 64913.75 and nodeLowRepres = 1
+702 31 214 57 
+ ind 5 has perfdegrad = 60596.36 and nodeLowRepres = 3
+702 31 214 43 14 
+ ind 6 has perfdegrad = 64913.75 and nodeLowRepres = 1
+702 31 57 214 
+ ind 7 has perfdegrad = 64913.75 and nodeLowRepres = 1
+702 31 214 57 
+ ind 8 has perfdegrad = 64913.75 and nodeLowRepres = 1
+702 31 214 57 
+ ind 9 has perfdegrad = 60596.36 and nodeLowRepres = 3
+702 31 214 43 14 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+generations = 15
+Tempo total de execução: 14.01 segundos

@@ -1,0 +1,61 @@
+Executando combinação ID: 29
+Parâmetros:
+ generations=100
+ pop_size=10
+ crossover_prob=0.8
+ mutation_prob=0.2
+ max_level=10
+ percentage_min_instances=0.05
+ node_is_leaf=0.5
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 73557.14 and nodeLowRepres = 4
+542 6 5 224 46 2 114 65 
+ ind 1 has perfdegrad = 92457.86 and nodeLowRepres = 0
+950 54 
+ ind 2 has perfdegrad = 88263.54 and nodeLowRepres = 1
+929 20 55 
+ ind 3 has perfdegrad = 85455.26 and nodeLowRepres = 4
+987 3 11 2 1 
+ ind 4 has perfdegrad = 69861.31 and nodeLowRepres = 9
+397 236 138 13 21 22 2 23 98 29 4 13 8 
+ ind 5 has perfdegrad = 92218.50 and nodeLowRepres = 1
+46 958 
+ ind 6 has perfdegrad = 77802.36 and nodeLowRepres = 1
+977 27 
+ ind 7 has perfdegrad = 92608.62 and nodeLowRepres = 2
+1001 1 2 
+ ind 8 has perfdegrad = 87608.44 and nodeLowRepres = 2
+986 8 10 
+ ind 9 has perfdegrad = 90049.61 and nodeLowRepres = 0
+546 458 
+------------------------------
+f0 = [0, 4, 6, 9]
+f1 = [2, 3, 8, 1]
+ ind 0 has perfdegrad = 48108.27 and nodeLowRepres = 6
+459 83 146 87 70 4 131 2 16 1 1 4 
+ ind 1 has perfdegrad = 59888.81 and nodeLowRepres = 0
+246 208 146 87 75 88 79 75 
+ ind 2 has perfdegrad = 48108.27 and nodeLowRepres = 6
+459 83 146 87 70 4 131 2 16 1 1 4 
+ ind 3 has perfdegrad = 48108.27 and nodeLowRepres = 6
+459 83 146 87 70 4 131 2 16 1 1 4 
+ ind 4 has perfdegrad = 48108.27 and nodeLowRepres = 6
+459 83 146 87 70 4 131 2 16 1 1 4 
+ ind 5 has perfdegrad = 48108.27 and nodeLowRepres = 6
+459 83 146 87 70 4 131 2 16 1 1 4 
+ ind 6 has perfdegrad = 48108.27 and nodeLowRepres = 6
+459 83 146 87 70 4 131 2 16 1 1 4 
+ ind 7 has perfdegrad = 48108.27 and nodeLowRepres = 6
+459 83 146 87 70 4 131 2 16 1 1 4 
+ ind 8 has perfdegrad = 48108.27 and nodeLowRepres = 6
+459 83 146 87 70 4 131 2 16 1 1 4 
+ ind 9 has perfdegrad = 48108.27 and nodeLowRepres = 6
+459 83 146 87 70 4 131 2 16 1 1 4 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 82.96 segundos

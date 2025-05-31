@@ -1,0 +1,113 @@
+Executando combinação ID: 2
+Parâmetros:
+ generations=10
+ pop_size=10
+ crossover_prob=0.9
+ mutation_prob=0.4
+ max_level=7
+ percentage_min_instances=0.05
+ node_is_leaf=0.5
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 92855.72 and nodeLowRepres = 2
+997 6 1 
+ ind 1 has perfdegrad = 71798.30 and nodeLowRepres = 10
+46 16 132 66 218 13 422 31 38 1 2 5 12 2 
+ ind 2 has perfdegrad = 89170.13 and nodeLowRepres = 0
+787 217 
+ ind 3 has perfdegrad = 92942.48 and nodeLowRepres = 0
+1004 
+ ind 4 has perfdegrad = 77371.32 and nodeLowRepres = 2
+344 3 223 214 80 139 1 
+ ind 5 has perfdegrad = 86174.93 and nodeLowRepres = 0
+139 865 
+ ind 6 has perfdegrad = 77267.84 and nodeLowRepres = 3
+424 77 344 4 107 2 46 
+ ind 7 has perfdegrad = 72615.75 and nodeLowRepres = 2
+217 54 655 1 26 51 
+ ind 8 has perfdegrad = 72710.36 and nodeLowRepres = 5
+156 3 178 473 35 156 1 1 1 
+ ind 9 has perfdegrad = 84746.12 and nodeLowRepres = 4
+821 122 46 7 7 1 
+------------------------------
+f0 = [1, 5, 7]
+f1 = [2, 4, 6, 8]
+[Geração 0] Sem melhora consecutiva: 0
+[Geração 1] Sem melhora consecutiva: 1
+[Geração 2] Sem melhora consecutiva: 0
+[Geração 3] Sem melhora consecutiva: 0
+[Geração 4] Sem melhora consecutiva: 0
+[Geração 5] Sem melhora consecutiva: 0
+[Geração 6] Sem melhora consecutiva: 0
+[Geração 7] Sem melhora consecutiva: 0
+[Geração 8] Sem melhora consecutiva: 0
+[Geração 9] Sem melhora consecutiva: 0
+[Geração 10] Sem melhora consecutiva: 0
+[Geração 11] Sem melhora consecutiva: 0
+[Geração 12] Sem melhora consecutiva: 0
+[Geração 13] Sem melhora consecutiva: 1
+[Geração 14] Sem melhora consecutiva: 0
+[Geração 15] Sem melhora consecutiva: 0
+[Geração 16] Sem melhora consecutiva: 0
+[Geração 17] Sem melhora consecutiva: 0
+[Geração 18] Sem melhora consecutiva: 0
+[Geração 19] Sem melhora consecutiva: 0
+[Geração 20] Sem melhora consecutiva: 1
+[Geração 21] Sem melhora consecutiva: 0
+[Geração 22] Sem melhora consecutiva: 1
+[Geração 23] Sem melhora consecutiva: 0
+[Geração 24] Sem melhora consecutiva: 0
+[Geração 25] Sem melhora consecutiva: 0
+[Geração 26] Sem melhora consecutiva: 1
+[Geração 27] Sem melhora consecutiva: 2
+[Geração 28] Sem melhora consecutiva: 0
+[Geração 29] Sem melhora consecutiva: 1
+[Geração 30] Sem melhora consecutiva: 0
+[Geração 31] Sem melhora consecutiva: 0
+[Geração 32] Sem melhora consecutiva: 1
+[Geração 33] Sem melhora consecutiva: 2
+[Geração 34] Sem melhora consecutiva: 0
+[Geração 35] Sem melhora consecutiva: 0
+[Geração 36] Sem melhora consecutiva: 1
+[Geração 37] Sem melhora consecutiva: 0
+[Geração 38] Sem melhora consecutiva: 1
+[Geração 39] Sem melhora consecutiva: 0
+[Geração 40] Sem melhora consecutiva: 0
+[Geração 41] Sem melhora consecutiva: 1
+[Geração 42] Sem melhora consecutiva: 2
+[Geração 43] Sem melhora consecutiva: 3
+[Geração 44] Sem melhora consecutiva: 4
+[Geração 45] Sem melhora consecutiva: 5
+[Geração 46] Sem melhora consecutiva: 6
+[Geração 47] Sem melhora consecutiva: 7
+[Geração 48] Sem melhora consecutiva: 8
+[Geração 49] Sem melhora consecutiva: 9
+[Geração 50] Sem melhora consecutiva: 10
+ ind 0 has perfdegrad = 54573.98 and nodeLowRepres = 0
+121 151 180 146 88 154 164 
+ ind 1 has perfdegrad = 54573.98 and nodeLowRepres = 0
+121 151 180 146 88 154 164 
+ ind 2 has perfdegrad = 54573.98 and nodeLowRepres = 0
+121 151 180 146 88 154 164 
+ ind 3 has perfdegrad = 54573.98 and nodeLowRepres = 0
+121 151 180 146 88 154 164 
+ ind 4 has perfdegrad = 54573.98 and nodeLowRepres = 0
+121 151 180 146 88 154 164 
+ ind 5 has perfdegrad = 54573.98 and nodeLowRepres = 0
+121 151 180 146 88 154 164 
+ ind 6 has perfdegrad = 54573.98 and nodeLowRepres = 0
+121 151 180 146 88 154 164 
+ ind 7 has perfdegrad = 54573.98 and nodeLowRepres = 0
+121 151 180 146 88 154 164 
+ ind 8 has perfdegrad = 54573.98 and nodeLowRepres = 0
+121 151 180 146 88 154 164 
+ ind 9 has perfdegrad = 54143.33 and nodeLowRepres = 1
+121 151 146 167 88 154 164 13 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+generations = 51
+Tempo total de execução: 44.25 segundos

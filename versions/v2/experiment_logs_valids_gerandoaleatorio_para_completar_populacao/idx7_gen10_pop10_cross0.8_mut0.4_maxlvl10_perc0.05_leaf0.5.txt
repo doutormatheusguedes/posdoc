@@ -1,0 +1,485 @@
+Executando combinação ID: 7
+Parâmetros:
+ generations=10
+ pop_size=10
+ crossover_prob=0.8
+ mutation_prob=0.4
+ max_level=10
+ percentage_min_instances=0.05
+ node_is_leaf=0.5
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 80372.88 and nodeLowRepres = 0
+832 66 106 
+ ind 1 has perfdegrad = 92167.40 and nodeLowRepres = 0
+54 950 
+ ind 2 has perfdegrad = 82477.64 and nodeLowRepres = 1
+784 8 212 
+ ind 3 has perfdegrad = 82702.12 and nodeLowRepres = 2
+633 300 53 13 5 
+ ind 4 has perfdegrad = 88613.22 and nodeLowRepres = 0
+598 406 
+ ind 5 has perfdegrad = 91045.60 and nodeLowRepres = 0
+778 226 
+ ind 6 has perfdegrad = 90345.94 and nodeLowRepres = 2
+796 18 66 34 90 
+ ind 7 has perfdegrad = 69392.67 and nodeLowRepres = 16
+117 29 536 28 48 46 8 13 34 5 2 24 32 6 9 25 5 37 
+ ind 8 has perfdegrad = 89550.11 and nodeLowRepres = 0
+492 512 
+ ind 9 has perfdegrad = 79802.29 and nodeLowRepres = 2
+614 212 16 7 155 
+------------------------------
+f0 = [0, 7, 9]
+f1 = [2, 4]
+[Geração 0] Sem melhora consecutiva: 0
+[Geração 1] Sem melhora consecutiva: 0
+[Geração 2] Sem melhora consecutiva: 0
+[Geração 3] Sem melhora consecutiva: 0
+[Geração 4] Sem melhora consecutiva: 0
+[Geração 5] Sem melhora consecutiva: 0
+[Geração 6] Sem melhora consecutiva: 1
+[Geração 7] Sem melhora consecutiva: 0
+[Geração 8] Sem melhora consecutiva: 1
+[Geração 9] Sem melhora consecutiva: 0
+[Geração 10] Sem melhora consecutiva: 0
+[Geração 11] Sem melhora consecutiva: 1
+[Geração 12] Sem melhora consecutiva: 0
+[Geração 13] Sem melhora consecutiva: 1
+[Geração 14] Sem melhora consecutiva: 2
+[Geração 15] Sem melhora consecutiva: 0
+[Geração 16] Sem melhora consecutiva: 0
+[Geração 17] Sem melhora consecutiva: 1
+[Geração 18] Sem melhora consecutiva: 0
+[Geração 19] Sem melhora consecutiva: 0
+[Geração 20] Sem melhora consecutiva: 0
+[Geração 21] Sem melhora consecutiva: 0
+[Geração 22] Sem melhora consecutiva: 0
+[Geração 23] Sem melhora consecutiva: 1
+[Geração 24] Sem melhora consecutiva: 0
+[Geração 25] Sem melhora consecutiva: 0
+[Geração 26] Sem melhora consecutiva: 1
+[Geração 27] Sem melhora consecutiva: 2
+[Geração 28] Sem melhora consecutiva: 0
+[Geração 29] Sem melhora consecutiva: 0
+[Geração 30] Sem melhora consecutiva: 0
+[Geração 31] Sem melhora consecutiva: 0
+[Geração 32] Sem melhora consecutiva: 0
+[Geração 33] Sem melhora consecutiva: 0
+[Geração 34] Sem melhora consecutiva: 0
+[Geração 35] Sem melhora consecutiva: 0
+[Geração 36] Sem melhora consecutiva: 0
+[Geração 37] Sem melhora consecutiva: 0
+[Geração 38] Sem melhora consecutiva: 0
+[Geração 39] Sem melhora consecutiva: 1
+[Geração 40] Sem melhora consecutiva: 0
+[Geração 41] Sem melhora consecutiva: 0
+[Geração 42] Sem melhora consecutiva: 0
+[Geração 43] Sem melhora consecutiva: 0
+[Geração 44] Sem melhora consecutiva: 0
+[Geração 45] Sem melhora consecutiva: 0
+[Geração 46] Sem melhora consecutiva: 0
+[Geração 47] Sem melhora consecutiva: 0
+[Geração 48] Sem melhora consecutiva: 0
+[Geração 49] Sem melhora consecutiva: 0
+[Geração 50] Sem melhora consecutiva: 0
+[Geração 51] Sem melhora consecutiva: 0
+[Geração 52] Sem melhora consecutiva: 0
+[Geração 53] Sem melhora consecutiva: 0
+[Geração 54] Sem melhora consecutiva: 0
+[Geração 55] Sem melhora consecutiva: 0
+[Geração 56] Sem melhora consecutiva: 0
+[Geração 57] Sem melhora consecutiva: 1
+[Geração 58] Sem melhora consecutiva: 0
+[Geração 59] Sem melhora consecutiva: 1
+[Geração 60] Sem melhora consecutiva: 0
+[Geração 61] Sem melhora consecutiva: 1
+[Geração 62] Sem melhora consecutiva: 0
+[Geração 63] Sem melhora consecutiva: 0
+[Geração 64] Sem melhora consecutiva: 0
+[Geração 65] Sem melhora consecutiva: 0
+[Geração 66] Sem melhora consecutiva: 0
+[Geração 67] Sem melhora consecutiva: 0
+[Geração 68] Sem melhora consecutiva: 1
+[Geração 69] Sem melhora consecutiva: 0
+[Geração 70] Sem melhora consecutiva: 0
+[Geração 71] Sem melhora consecutiva: 0
+[Geração 72] Sem melhora consecutiva: 0
+[Geração 73] Sem melhora consecutiva: 0
+[Geração 74] Sem melhora consecutiva: 0
+[Geração 75] Sem melhora consecutiva: 0
+[Geração 76] Sem melhora consecutiva: 0
+[Geração 77] Sem melhora consecutiva: 0
+[Geração 78] Sem melhora consecutiva: 0
+[Geração 79] Sem melhora consecutiva: 0
+[Geração 80] Sem melhora consecutiva: 0
+[Geração 81] Sem melhora consecutiva: 0
+[Geração 82] Sem melhora consecutiva: 0
+[Geração 83] Sem melhora consecutiva: 0
+[Geração 84] Sem melhora consecutiva: 0
+[Geração 85] Sem melhora consecutiva: 0
+[Geração 86] Sem melhora consecutiva: 0
+[Geração 87] Sem melhora consecutiva: 0
+[Geração 88] Sem melhora consecutiva: 0
+[Geração 89] Sem melhora consecutiva: 0
+[Geração 90] Sem melhora consecutiva: 0
+[Geração 91] Sem melhora consecutiva: 0
+[Geração 92] Sem melhora consecutiva: 0
+[Geração 93] Sem melhora consecutiva: 0
+[Geração 94] Sem melhora consecutiva: 0
+[Geração 95] Sem melhora consecutiva: 0
+[Geração 96] Sem melhora consecutiva: 1
+[Geração 97] Sem melhora consecutiva: 0
+[Geração 98] Sem melhora consecutiva: 0
+[Geração 99] Sem melhora consecutiva: 0
+[Geração 100] Sem melhora consecutiva: 0
+[Geração 101] Sem melhora consecutiva: 0
+[Geração 102] Sem melhora consecutiva: 0
+[Geração 103] Sem melhora consecutiva: 1
+[Geração 104] Sem melhora consecutiva: 0
+[Geração 105] Sem melhora consecutiva: 1
+[Geração 106] Sem melhora consecutiva: 0
+[Geração 107] Sem melhora consecutiva: 0
+[Geração 108] Sem melhora consecutiva: 0
+[Geração 109] Sem melhora consecutiva: 0
+[Geração 110] Sem melhora consecutiva: 0
+[Geração 111] Sem melhora consecutiva: 0
+[Geração 112] Sem melhora consecutiva: 0
+[Geração 113] Sem melhora consecutiva: 0
+[Geração 114] Sem melhora consecutiva: 0
+[Geração 115] Sem melhora consecutiva: 0
+[Geração 116] Sem melhora consecutiva: 0
+[Geração 117] Sem melhora consecutiva: 0
+[Geração 118] Sem melhora consecutiva: 1
+[Geração 119] Sem melhora consecutiva: 0
+[Geração 120] Sem melhora consecutiva: 0
+[Geração 121] Sem melhora consecutiva: 0
+[Geração 122] Sem melhora consecutiva: 0
+[Geração 123] Sem melhora consecutiva: 0
+[Geração 124] Sem melhora consecutiva: 1
+[Geração 125] Sem melhora consecutiva: 0
+[Geração 126] Sem melhora consecutiva: 0
+[Geração 127] Sem melhora consecutiva: 0
+[Geração 128] Sem melhora consecutiva: 0
+[Geração 129] Sem melhora consecutiva: 0
+[Geração 130] Sem melhora consecutiva: 0
+[Geração 131] Sem melhora consecutiva: 0
+[Geração 132] Sem melhora consecutiva: 0
+[Geração 133] Sem melhora consecutiva: 0
+[Geração 134] Sem melhora consecutiva: 0
+[Geração 135] Sem melhora consecutiva: 0
+[Geração 136] Sem melhora consecutiva: 0
+[Geração 137] Sem melhora consecutiva: 0
+[Geração 138] Sem melhora consecutiva: 0
+[Geração 139] Sem melhora consecutiva: 0
+[Geração 140] Sem melhora consecutiva: 1
+[Geração 141] Sem melhora consecutiva: 0
+[Geração 142] Sem melhora consecutiva: 0
+[Geração 143] Sem melhora consecutiva: 0
+[Geração 144] Sem melhora consecutiva: 0
+[Geração 145] Sem melhora consecutiva: 0
+[Geração 146] Sem melhora consecutiva: 0
+[Geração 147] Sem melhora consecutiva: 0
+[Geração 148] Sem melhora consecutiva: 0
+[Geração 149] Sem melhora consecutiva: 1
+[Geração 150] Sem melhora consecutiva: 0
+[Geração 151] Sem melhora consecutiva: 0
+[Geração 152] Sem melhora consecutiva: 0
+[Geração 153] Sem melhora consecutiva: 0
+[Geração 154] Sem melhora consecutiva: 0
+[Geração 155] Sem melhora consecutiva: 0
+[Geração 156] Sem melhora consecutiva: 0
+[Geração 157] Sem melhora consecutiva: 0
+[Geração 158] Sem melhora consecutiva: 0
+[Geração 159] Sem melhora consecutiva: 1
+[Geração 160] Sem melhora consecutiva: 2
+[Geração 161] Sem melhora consecutiva: 0
+[Geração 162] Sem melhora consecutiva: 0
+[Geração 163] Sem melhora consecutiva: 1
+[Geração 164] Sem melhora consecutiva: 0
+[Geração 165] Sem melhora consecutiva: 0
+[Geração 166] Sem melhora consecutiva: 1
+[Geração 167] Sem melhora consecutiva: 2
+[Geração 168] Sem melhora consecutiva: 0
+[Geração 169] Sem melhora consecutiva: 0
+[Geração 170] Sem melhora consecutiva: 1
+[Geração 171] Sem melhora consecutiva: 0
+[Geração 172] Sem melhora consecutiva: 1
+[Geração 173] Sem melhora consecutiva: 0
+[Geração 174] Sem melhora consecutiva: 1
+[Geração 175] Sem melhora consecutiva: 0
+[Geração 176] Sem melhora consecutiva: 0
+[Geração 177] Sem melhora consecutiva: 0
+[Geração 178] Sem melhora consecutiva: 1
+[Geração 179] Sem melhora consecutiva: 2
+[Geração 180] Sem melhora consecutiva: 0
+[Geração 181] Sem melhora consecutiva: 1
+[Geração 182] Sem melhora consecutiva: 0
+[Geração 183] Sem melhora consecutiva: 1
+[Geração 184] Sem melhora consecutiva: 2
+[Geração 185] Sem melhora consecutiva: 3
+[Geração 186] Sem melhora consecutiva: 0
+[Geração 187] Sem melhora consecutiva: 0
+[Geração 188] Sem melhora consecutiva: 0
+[Geração 189] Sem melhora consecutiva: 1
+[Geração 190] Sem melhora consecutiva: 2
+[Geração 191] Sem melhora consecutiva: 3
+[Geração 192] Sem melhora consecutiva: 0
+[Geração 193] Sem melhora consecutiva: 0
+[Geração 194] Sem melhora consecutiva: 0
+[Geração 195] Sem melhora consecutiva: 0
+[Geração 196] Sem melhora consecutiva: 0
+[Geração 197] Sem melhora consecutiva: 0
+[Geração 198] Sem melhora consecutiva: 0
+[Geração 199] Sem melhora consecutiva: 1
+[Geração 200] Sem melhora consecutiva: 2
+[Geração 201] Sem melhora consecutiva: 0
+[Geração 202] Sem melhora consecutiva: 1
+[Geração 203] Sem melhora consecutiva: 2
+[Geração 204] Sem melhora consecutiva: 0
+[Geração 205] Sem melhora consecutiva: 0
+[Geração 206] Sem melhora consecutiva: 1
+[Geração 207] Sem melhora consecutiva: 0
+[Geração 208] Sem melhora consecutiva: 0
+[Geração 209] Sem melhora consecutiva: 0
+[Geração 210] Sem melhora consecutiva: 0
+[Geração 211] Sem melhora consecutiva: 0
+[Geração 212] Sem melhora consecutiva: 0
+[Geração 213] Sem melhora consecutiva: 1
+[Geração 214] Sem melhora consecutiva: 0
+[Geração 215] Sem melhora consecutiva: 0
+[Geração 216] Sem melhora consecutiva: 0
+[Geração 217] Sem melhora consecutiva: 0
+[Geração 218] Sem melhora consecutiva: 0
+[Geração 219] Sem melhora consecutiva: 0
+[Geração 220] Sem melhora consecutiva: 0
+[Geração 221] Sem melhora consecutiva: 0
+[Geração 222] Sem melhora consecutiva: 0
+[Geração 223] Sem melhora consecutiva: 0
+[Geração 224] Sem melhora consecutiva: 1
+[Geração 225] Sem melhora consecutiva: 2
+[Geração 226] Sem melhora consecutiva: 3
+[Geração 227] Sem melhora consecutiva: 0
+[Geração 228] Sem melhora consecutiva: 0
+[Geração 229] Sem melhora consecutiva: 0
+[Geração 230] Sem melhora consecutiva: 1
+[Geração 231] Sem melhora consecutiva: 0
+[Geração 232] Sem melhora consecutiva: 1
+[Geração 233] Sem melhora consecutiva: 0
+[Geração 234] Sem melhora consecutiva: 1
+[Geração 235] Sem melhora consecutiva: 0
+[Geração 236] Sem melhora consecutiva: 1
+[Geração 237] Sem melhora consecutiva: 2
+[Geração 238] Sem melhora consecutiva: 0
+[Geração 239] Sem melhora consecutiva: 0
+[Geração 240] Sem melhora consecutiva: 0
+[Geração 241] Sem melhora consecutiva: 0
+[Geração 242] Sem melhora consecutiva: 0
+[Geração 243] Sem melhora consecutiva: 0
+[Geração 244] Sem melhora consecutiva: 0
+[Geração 245] Sem melhora consecutiva: 0
+[Geração 246] Sem melhora consecutiva: 0
+[Geração 247] Sem melhora consecutiva: 0
+[Geração 248] Sem melhora consecutiva: 1
+[Geração 249] Sem melhora consecutiva: 0
+[Geração 250] Sem melhora consecutiva: 0
+[Geração 251] Sem melhora consecutiva: 1
+[Geração 252] Sem melhora consecutiva: 2
+[Geração 253] Sem melhora consecutiva: 0
+[Geração 254] Sem melhora consecutiva: 0
+[Geração 255] Sem melhora consecutiva: 0
+[Geração 256] Sem melhora consecutiva: 1
+[Geração 257] Sem melhora consecutiva: 2
+[Geração 258] Sem melhora consecutiva: 3
+[Geração 259] Sem melhora consecutiva: 0
+[Geração 260] Sem melhora consecutiva: 0
+[Geração 261] Sem melhora consecutiva: 0
+[Geração 262] Sem melhora consecutiva: 0
+[Geração 263] Sem melhora consecutiva: 0
+[Geração 264] Sem melhora consecutiva: 0
+[Geração 265] Sem melhora consecutiva: 0
+[Geração 266] Sem melhora consecutiva: 0
+[Geração 267] Sem melhora consecutiva: 0
+[Geração 268] Sem melhora consecutiva: 0
+[Geração 269] Sem melhora consecutiva: 0
+[Geração 270] Sem melhora consecutiva: 0
+[Geração 271] Sem melhora consecutiva: 1
+[Geração 272] Sem melhora consecutiva: 2
+[Geração 273] Sem melhora consecutiva: 0
+[Geração 274] Sem melhora consecutiva: 0
+[Geração 275] Sem melhora consecutiva: 1
+[Geração 276] Sem melhora consecutiva: 0
+[Geração 277] Sem melhora consecutiva: 0
+[Geração 278] Sem melhora consecutiva: 1
+[Geração 279] Sem melhora consecutiva: 2
+[Geração 280] Sem melhora consecutiva: 3
+[Geração 281] Sem melhora consecutiva: 4
+[Geração 282] Sem melhora consecutiva: 5
+[Geração 283] Sem melhora consecutiva: 0
+[Geração 284] Sem melhora consecutiva: 0
+[Geração 285] Sem melhora consecutiva: 0
+[Geração 286] Sem melhora consecutiva: 1
+[Geração 287] Sem melhora consecutiva: 0
+[Geração 288] Sem melhora consecutiva: 0
+[Geração 289] Sem melhora consecutiva: 0
+[Geração 290] Sem melhora consecutiva: 0
+[Geração 291] Sem melhora consecutiva: 0
+[Geração 292] Sem melhora consecutiva: 1
+[Geração 293] Sem melhora consecutiva: 2
+[Geração 294] Sem melhora consecutiva: 3
+[Geração 295] Sem melhora consecutiva: 0
+[Geração 296] Sem melhora consecutiva: 1
+[Geração 297] Sem melhora consecutiva: 2
+[Geração 298] Sem melhora consecutiva: 0
+[Geração 299] Sem melhora consecutiva: 1
+[Geração 300] Sem melhora consecutiva: 2
+[Geração 301] Sem melhora consecutiva: 3
+[Geração 302] Sem melhora consecutiva: 4
+[Geração 303] Sem melhora consecutiva: 0
+[Geração 304] Sem melhora consecutiva: 0
+[Geração 305] Sem melhora consecutiva: 0
+[Geração 306] Sem melhora consecutiva: 0
+[Geração 307] Sem melhora consecutiva: 0
+[Geração 308] Sem melhora consecutiva: 0
+[Geração 309] Sem melhora consecutiva: 1
+[Geração 310] Sem melhora consecutiva: 0
+[Geração 311] Sem melhora consecutiva: 0
+[Geração 312] Sem melhora consecutiva: 0
+[Geração 313] Sem melhora consecutiva: 0
+[Geração 314] Sem melhora consecutiva: 1
+[Geração 315] Sem melhora consecutiva: 0
+[Geração 316] Sem melhora consecutiva: 0
+[Geração 317] Sem melhora consecutiva: 1
+[Geração 318] Sem melhora consecutiva: 0
+[Geração 319] Sem melhora consecutiva: 0
+[Geração 320] Sem melhora consecutiva: 0
+[Geração 321] Sem melhora consecutiva: 0
+[Geração 322] Sem melhora consecutiva: 0
+[Geração 323] Sem melhora consecutiva: 0
+[Geração 324] Sem melhora consecutiva: 0
+[Geração 325] Sem melhora consecutiva: 1
+[Geração 326] Sem melhora consecutiva: 0
+[Geração 327] Sem melhora consecutiva: 0
+[Geração 328] Sem melhora consecutiva: 0
+[Geração 329] Sem melhora consecutiva: 0
+[Geração 330] Sem melhora consecutiva: 0
+[Geração 331] Sem melhora consecutiva: 0
+[Geração 332] Sem melhora consecutiva: 0
+[Geração 333] Sem melhora consecutiva: 0
+[Geração 334] Sem melhora consecutiva: 0
+[Geração 335] Sem melhora consecutiva: 1
+[Geração 336] Sem melhora consecutiva: 2
+[Geração 337] Sem melhora consecutiva: 0
+[Geração 338] Sem melhora consecutiva: 0
+[Geração 339] Sem melhora consecutiva: 1
+[Geração 340] Sem melhora consecutiva: 0
+[Geração 341] Sem melhora consecutiva: 0
+[Geração 342] Sem melhora consecutiva: 0
+[Geração 343] Sem melhora consecutiva: 0
+[Geração 344] Sem melhora consecutiva: 1
+[Geração 345] Sem melhora consecutiva: 0
+[Geração 346] Sem melhora consecutiva: 0
+[Geração 347] Sem melhora consecutiva: 0
+[Geração 348] Sem melhora consecutiva: 0
+[Geração 349] Sem melhora consecutiva: 0
+[Geração 350] Sem melhora consecutiva: 1
+[Geração 351] Sem melhora consecutiva: 2
+[Geração 352] Sem melhora consecutiva: 0
+[Geração 353] Sem melhora consecutiva: 0
+[Geração 354] Sem melhora consecutiva: 0
+[Geração 355] Sem melhora consecutiva: 0
+[Geração 356] Sem melhora consecutiva: 0
+[Geração 357] Sem melhora consecutiva: 0
+[Geração 358] Sem melhora consecutiva: 0
+[Geração 359] Sem melhora consecutiva: 0
+[Geração 360] Sem melhora consecutiva: 0
+[Geração 361] Sem melhora consecutiva: 0
+[Geração 362] Sem melhora consecutiva: 1
+[Geração 363] Sem melhora consecutiva: 0
+[Geração 364] Sem melhora consecutiva: 0
+[Geração 365] Sem melhora consecutiva: 0
+[Geração 366] Sem melhora consecutiva: 1
+[Geração 367] Sem melhora consecutiva: 2
+[Geração 368] Sem melhora consecutiva: 3
+[Geração 369] Sem melhora consecutiva: 0
+[Geração 370] Sem melhora consecutiva: 0
+[Geração 371] Sem melhora consecutiva: 1
+[Geração 372] Sem melhora consecutiva: 0
+[Geração 373] Sem melhora consecutiva: 1
+[Geração 374] Sem melhora consecutiva: 2
+[Geração 375] Sem melhora consecutiva: 3
+[Geração 376] Sem melhora consecutiva: 4
+[Geração 377] Sem melhora consecutiva: 0
+[Geração 378] Sem melhora consecutiva: 0
+[Geração 379] Sem melhora consecutiva: 1
+[Geração 380] Sem melhora consecutiva: 0
+[Geração 381] Sem melhora consecutiva: 0
+[Geração 382] Sem melhora consecutiva: 1
+[Geração 383] Sem melhora consecutiva: 2
+[Geração 384] Sem melhora consecutiva: 0
+[Geração 385] Sem melhora consecutiva: 1
+[Geração 386] Sem melhora consecutiva: 2
+[Geração 387] Sem melhora consecutiva: 3
+[Geração 388] Sem melhora consecutiva: 4
+[Geração 389] Sem melhora consecutiva: 0
+[Geração 390] Sem melhora consecutiva: 0
+[Geração 391] Sem melhora consecutiva: 1
+[Geração 392] Sem melhora consecutiva: 2
+[Geração 393] Sem melhora consecutiva: 3
+[Geração 394] Sem melhora consecutiva: 4
+[Geração 395] Sem melhora consecutiva: 5
+[Geração 396] Sem melhora consecutiva: 0
+[Geração 397] Sem melhora consecutiva: 0
+[Geração 398] Sem melhora consecutiva: 1
+[Geração 399] Sem melhora consecutiva: 2
+[Geração 400] Sem melhora consecutiva: 3
+[Geração 401] Sem melhora consecutiva: 4
+[Geração 402] Sem melhora consecutiva: 5
+[Geração 403] Sem melhora consecutiva: 6
+[Geração 404] Sem melhora consecutiva: 7
+[Geração 405] Sem melhora consecutiva: 8
+[Geração 406] Sem melhora consecutiva: 9
+[Geração 407] Sem melhora consecutiva: 0
+[Geração 408] Sem melhora consecutiva: 1
+[Geração 409] Sem melhora consecutiva: 2
+[Geração 410] Sem melhora consecutiva: 0
+[Geração 411] Sem melhora consecutiva: 1
+[Geração 412] Sem melhora consecutiva: 0
+[Geração 413] Sem melhora consecutiva: 1
+[Geração 414] Sem melhora consecutiva: 2
+[Geração 415] Sem melhora consecutiva: 3
+[Geração 416] Sem melhora consecutiva: 4
+[Geração 417] Sem melhora consecutiva: 5
+[Geração 418] Sem melhora consecutiva: 6
+[Geração 419] Sem melhora consecutiva: 7
+[Geração 420] Sem melhora consecutiva: 8
+[Geração 421] Sem melhora consecutiva: 9
+[Geração 422] Sem melhora consecutiva: 10
+ ind 0 has perfdegrad = 56077.66 and nodeLowRepres = 0
+92 117 72 84 353 63 82 58 83 
+ ind 1 has perfdegrad = 51900.00 and nodeLowRepres = 1
+117 15 77 72 353 63 84 82 58 83 
+ ind 2 has perfdegrad = 56077.66 and nodeLowRepres = 0
+92 117 72 353 63 84 82 58 83 
+ ind 3 has perfdegrad = 56077.66 and nodeLowRepres = 0
+92 117 72 84 353 63 82 58 83 
+ ind 4 has perfdegrad = 43652.87 and nodeLowRepres = 9
+15 77 72 18 84 353 63 4 5 62 82 7 6 58 83 4 6 5 
+ ind 5 has perfdegrad = 56077.66 and nodeLowRepres = 0
+92 117 72 353 63 84 82 58 83 
+ ind 6 has perfdegrad = 51900.00 and nodeLowRepres = 1
+117 15 77 72 84 353 63 82 58 83 
+ ind 7 has perfdegrad = 51900.00 and nodeLowRepres = 1
+117 15 77 72 84 353 63 82 58 83 
+ ind 8 has perfdegrad = 56077.66 and nodeLowRepres = 0
+92 117 72 353 63 84 82 58 83 
+ ind 9 has perfdegrad = 51900.00 and nodeLowRepres = 1
+117 15 77 72 353 63 84 82 58 83 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+generations = 423
+Tempo total de execução: 384.60 segundos
