@@ -1,0 +1,421 @@
+Executando combinação ID: 1333
+Parâmetros:
+ generations=100
+ pop_size=100
+ crossover_prob=0.9
+ mutation_prob=0.2
+ max_level=3
+ percentage_min_instances=0.02
+ node_is_leaf=0.5
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 91843.63 and nodeLowRepres = 0
+755 249 
+ ind 1 has perfdegrad = 85349.24 and nodeLowRepres = 0
+951 53 
+ ind 2 has perfdegrad = 92613.65 and nodeLowRepres = 2
+991 12 1 
+ ind 3 has perfdegrad = 77180.70 and nodeLowRepres = 1
+838 139 26 1 
+ ind 4 has perfdegrad = 81891.85 and nodeLowRepres = 0
+900 33 71 
+ ind 5 has perfdegrad = 92942.48 and nodeLowRepres = 0
+1004 
+ ind 6 has perfdegrad = 77592.25 and nodeLowRepres = 0
+693 250 61 
+ ind 7 has perfdegrad = 91857.11 and nodeLowRepres = 0
+22 982 
+ ind 8 has perfdegrad = 88464.50 and nodeLowRepres = 0
+869 135 
+ ind 9 has perfdegrad = 92532.39 and nodeLowRepres = 0
+52 952 
+ ind 10 has perfdegrad = 80868.60 and nodeLowRepres = 0
+828 146 30 
+ ind 11 has perfdegrad = 91169.57 and nodeLowRepres = 0
+938 66 
+ ind 12 has perfdegrad = 76631.42 and nodeLowRepres = 0
+820 184 
+ ind 13 has perfdegrad = 85658.09 and nodeLowRepres = 1
+855 148 1 
+ ind 14 has perfdegrad = 84720.30 and nodeLowRepres = 0
+59 254 649 42 
+ ind 15 has perfdegrad = 90285.72 and nodeLowRepres = 1
+862 50 84 8 
+ ind 16 has perfdegrad = 85370.57 and nodeLowRepres = 0
+782 126 96 
+ ind 17 has perfdegrad = 87372.20 and nodeLowRepres = 0
+691 213 100 
+ ind 18 has perfdegrad = 92904.06 and nodeLowRepres = 1
+995 9 
+ ind 19 has perfdegrad = 89396.24 and nodeLowRepres = 0
+776 104 124 
+ ind 20 has perfdegrad = 88469.90 and nodeLowRepres = 0
+722 21 143 118 
+ ind 21 has perfdegrad = 91304.02 and nodeLowRepres = 1
+957 45 2 
+ ind 22 has perfdegrad = 90993.49 and nodeLowRepres = 0
+147 181 676 
+ ind 23 has perfdegrad = 76920.00 and nodeLowRepres = 0
+498 441 41 24 
+ ind 24 has perfdegrad = 83391.07 and nodeLowRepres = 0
+161 763 80 
+ ind 25 has perfdegrad = 90174.19 and nodeLowRepres = 0
+159 845 
+ ind 26 has perfdegrad = 69091.19 and nodeLowRepres = 0
+365 406 61 172 
+ ind 27 has perfdegrad = 82089.10 and nodeLowRepres = 0
+416 588 
+ ind 28 has perfdegrad = 89322.29 and nodeLowRepres = 0
+556 376 72 
+ ind 29 has perfdegrad = 92942.48 and nodeLowRepres = 0
+1004 
+ ind 30 has perfdegrad = 85961.29 and nodeLowRepres = 0
+972 32 
+ ind 31 has perfdegrad = 79589.84 and nodeLowRepres = 0
+77 139 94 694 
+ ind 32 has perfdegrad = 86543.12 and nodeLowRepres = 0
+954 50 
+ ind 33 has perfdegrad = 82544.24 and nodeLowRepres = 0
+625 36 343 
+ ind 34 has perfdegrad = 82971.51 and nodeLowRepres = 0
+637 196 126 45 
+ ind 35 has perfdegrad = 92353.04 and nodeLowRepres = 1
+999 5 
+ ind 36 has perfdegrad = 90613.44 and nodeLowRepres = 1
+711 275 18 
+ ind 37 has perfdegrad = 89544.06 and nodeLowRepres = 0
+510 494 
+ ind 38 has perfdegrad = 75738.99 and nodeLowRepres = 0
+88 844 72 
+ ind 39 has perfdegrad = 78876.81 and nodeLowRepres = 0
+177 305 410 112 
+ ind 40 has perfdegrad = 89882.67 and nodeLowRepres = 1
+963 40 1 
+ ind 41 has perfdegrad = 83980.53 and nodeLowRepres = 0
+525 446 33 
+ ind 42 has perfdegrad = 81432.97 and nodeLowRepres = 0
+582 422 
+ ind 43 has perfdegrad = 86947.47 and nodeLowRepres = 0
+556 448 
+ ind 44 has perfdegrad = 89766.72 and nodeLowRepres = 0
+801 203 
+ ind 45 has perfdegrad = 91842.31 and nodeLowRepres = 1
+63 16 925 
+ ind 46 has perfdegrad = 91183.70 and nodeLowRepres = 0
+53 130 800 21 
+ ind 47 has perfdegrad = 88220.47 and nodeLowRepres = 0
+313 691 
+ ind 48 has perfdegrad = 90014.90 and nodeLowRepres = 0
+833 171 
+ ind 49 has perfdegrad = 89357.05 and nodeLowRepres = 1
+748 246 10 
+ ind 50 has perfdegrad = 83761.57 and nodeLowRepres = 0
+215 556 233 
+ ind 51 has perfdegrad = 91483.72 and nodeLowRepres = 0
+816 42 146 
+ ind 52 has perfdegrad = 88221.59 and nodeLowRepres = 0
+940 64 
+ ind 53 has perfdegrad = 89341.14 and nodeLowRepres = 0
+106 898 
+ ind 54 has perfdegrad = 87180.19 and nodeLowRepres = 2
+3 4 882 115 
+ ind 55 has perfdegrad = 79690.33 and nodeLowRepres = 0
+334 43 339 288 
+ ind 56 has perfdegrad = 88112.84 and nodeLowRepres = 0
+974 30 
+ ind 57 has perfdegrad = 72271.31 and nodeLowRepres = 0
+241 666 97 
+ ind 58 has perfdegrad = 80024.67 and nodeLowRepres = 0
+206 267 156 375 
+ ind 59 has perfdegrad = 87669.38 and nodeLowRepres = 0
+921 83 
+ ind 60 has perfdegrad = 88220.47 and nodeLowRepres = 0
+691 313 
+ ind 61 has perfdegrad = 84243.60 and nodeLowRepres = 0
+156 848 
+ ind 62 has perfdegrad = 85301.07 and nodeLowRepres = 1
+363 5 636 
+ ind 63 has perfdegrad = 84982.41 and nodeLowRepres = 1
+986 18 
+ ind 64 has perfdegrad = 86757.48 and nodeLowRepres = 0
+909 95 
+ ind 65 has perfdegrad = 92768.84 and nodeLowRepres = 1
+970 27 7 
+ ind 66 has perfdegrad = 75912.89 and nodeLowRepres = 2
+689 306 5 4 
+ ind 67 has perfdegrad = 85631.29 and nodeLowRepres = 0
+870 134 
+ ind 68 has perfdegrad = 76543.99 and nodeLowRepres = 0
+657 129 218 
+ ind 69 has perfdegrad = 87659.31 and nodeLowRepres = 0
+351 653 
+ ind 70 has perfdegrad = 84787.55 and nodeLowRepres = 0
+964 40 
+ ind 71 has perfdegrad = 87359.59 and nodeLowRepres = 0
+760 244 
+ ind 72 has perfdegrad = 85299.41 and nodeLowRepres = 0
+304 574 126 
+ ind 73 has perfdegrad = 80589.42 and nodeLowRepres = 0
+862 115 27 
+ ind 74 has perfdegrad = 78513.71 and nodeLowRepres = 0
+127 177 635 65 
+ ind 75 has perfdegrad = 85067.88 and nodeLowRepres = 0
+353 533 118 
+ ind 76 has perfdegrad = 86462.17 and nodeLowRepres = 0
+859 28 117 
+ ind 77 has perfdegrad = 92853.80 and nodeLowRepres = 1
+965 21 18 
+ ind 78 has perfdegrad = 74362.80 and nodeLowRepres = 0
+83 230 640 51 
+ ind 79 has perfdegrad = 84538.76 and nodeLowRepres = 0
+610 81 313 
+ ind 80 has perfdegrad = 87199.36 and nodeLowRepres = 0
+904 100 
+ ind 81 has perfdegrad = 92038.45 and nodeLowRepres = 1
+887 113 4 
+ ind 82 has perfdegrad = 81633.58 and nodeLowRepres = 0
+414 590 
+ ind 83 has perfdegrad = 77510.78 and nodeLowRepres = 0
+871 133 
+ ind 84 has perfdegrad = 77764.79 and nodeLowRepres = 0
+47 957 
+ ind 85 has perfdegrad = 92301.52 and nodeLowRepres = 1
+943 59 2 
+ ind 86 has perfdegrad = 86707.18 and nodeLowRepres = 0
+934 33 37 
+ ind 87 has perfdegrad = 86189.70 and nodeLowRepres = 0
+148 35 752 69 
+ ind 88 has perfdegrad = 86673.52 and nodeLowRepres = 0
+398 517 89 
+ ind 89 has perfdegrad = 75892.02 and nodeLowRepres = 0
+831 115 58 
+ ind 90 has perfdegrad = 92301.49 and nodeLowRepres = 0
+65 939 
+ ind 91 has perfdegrad = 90562.51 and nodeLowRepres = 0
+237 230 537 
+ ind 92 has perfdegrad = 87622.57 and nodeLowRepres = 0
+424 358 222 
+ ind 93 has perfdegrad = 81203.67 and nodeLowRepres = 0
+278 303 165 258 
+ ind 94 has perfdegrad = 83219.44 and nodeLowRepres = 0
+92 58 770 84 
+ ind 95 has perfdegrad = 85015.02 and nodeLowRepres = 1
+15 643 346 
+ ind 96 has perfdegrad = 92826.37 and nodeLowRepres = 0
+424 580 
+ ind 97 has perfdegrad = 92040.52 and nodeLowRepres = 0
+669 335 
+ ind 98 has perfdegrad = 87819.34 and nodeLowRepres = 0
+50 271 683 
+ ind 99 has perfdegrad = 78157.12 and nodeLowRepres = 0
+176 383 445 
+------------------------------
+f0 = [26]
+f1 = [57]
+ ind 0 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 1 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 2 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 3 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 4 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 5 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 6 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 7 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 8 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 9 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 10 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 11 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 12 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 13 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 14 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 15 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 16 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 17 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 18 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 19 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 20 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 21 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 22 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 23 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 24 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 25 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 26 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 27 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 28 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 29 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 30 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 31 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 32 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 33 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 34 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 35 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 36 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 37 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 38 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 39 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 40 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 41 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 42 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 43 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 44 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 45 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 46 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 47 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 48 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 49 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 50 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 51 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 52 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 53 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 54 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 55 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 56 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 57 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 58 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 59 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 60 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 61 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 62 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 63 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 64 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 65 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 66 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 67 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 68 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 69 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 70 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 71 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 72 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 73 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 74 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 75 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 76 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 77 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 78 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 79 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 80 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 81 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 82 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 83 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 84 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 85 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 86 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 87 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 88 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 89 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 90 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 91 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 92 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 93 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 94 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 95 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 96 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 97 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 98 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+ ind 99 has perfdegrad = 60345.65 and nodeLowRepres = 0
+253 58 527 166 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+Tempo total de execução: 1100.83 segundos

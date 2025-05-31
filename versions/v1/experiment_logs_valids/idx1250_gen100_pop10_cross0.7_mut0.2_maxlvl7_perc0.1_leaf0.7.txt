@@ -1,0 +1,61 @@
+Executando combinação ID: 1250
+Parâmetros:
+ generations=100
+ pop_size=10
+ crossover_prob=0.7
+ mutation_prob=0.2
+ max_level=7
+ percentage_min_instances=0.1
+ node_is_leaf=0.7
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 81422.15 and nodeLowRepres = 0
+300 704 
+ ind 1 has perfdegrad = 79032.98 and nodeLowRepres = 4
+18 733 167 10 24 52 
+ ind 2 has perfdegrad = 73754.77 and nodeLowRepres = 2
+628 141 59 168 8 
+ ind 3 has perfdegrad = 89987.51 and nodeLowRepres = 0
+139 865 
+ ind 4 has perfdegrad = 84210.78 and nodeLowRepres = 2
+830 95 79 
+ ind 5 has perfdegrad = 89199.32 and nodeLowRepres = 2
+932 23 49 
+ ind 6 has perfdegrad = 81457.90 and nodeLowRepres = 1
+241 718 45 
+ ind 7 has perfdegrad = 92909.82 and nodeLowRepres = 1
+1002 2 
+ ind 8 has perfdegrad = 83780.40 and nodeLowRepres = 0
+304 700 
+ ind 9 has perfdegrad = 90190.47 and nodeLowRepres = 0
+574 118 312 
+------------------------------
+f0 = [0, 2]
+f1 = [6, 8, 1]
+ ind 0 has perfdegrad = 68454.69 and nodeLowRepres = 0
+317 263 278 146 
+ ind 1 has perfdegrad = 58904.46 and nodeLowRepres = 3
+263 93 408 16 172 52 
+ ind 2 has perfdegrad = 58566.72 and nodeLowRepres = 4
+263 93 408 16 52 152 20 
+ ind 3 has perfdegrad = 64354.95 and nodeLowRepres = 1
+317 263 408 16 
+ ind 4 has perfdegrad = 68454.69 and nodeLowRepres = 0
+317 263 278 146 
+ ind 5 has perfdegrad = 68454.69 and nodeLowRepres = 0
+317 263 278 146 
+ ind 6 has perfdegrad = 68454.69 and nodeLowRepres = 0
+317 263 278 146 
+ ind 7 has perfdegrad = 64354.95 and nodeLowRepres = 1
+317 263 408 16 
+ ind 8 has perfdegrad = 63004.20 and nodeLowRepres = 2
+263 93 278 146 172 52 
+ ind 9 has perfdegrad = 64354.95 and nodeLowRepres = 1
+317 263 408 16 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 98.92 segundos

@@ -1,0 +1,61 @@
+Executando combinação ID: 70
+Parâmetros:
+ generations=10
+ pop_size=10
+ crossover_prob=0.9
+ mutation_prob=0.2
+ max_level=10
+ percentage_min_instances=0.1
+ node_is_leaf=0.5
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 87754.67 and nodeLowRepres = 2
+715 94 67 128 
+ ind 1 has perfdegrad = 84666.28 and nodeLowRepres = 0
+194 810 
+ ind 2 has perfdegrad = 77210.96 and nodeLowRepres = 5
+63 176 367 360 3 29 3 3 
+ ind 3 has perfdegrad = 88272.49 and nodeLowRepres = 2
+536 8 397 63 
+ ind 4 has perfdegrad = 70044.87 and nodeLowRepres = 7
+371 262 7 12 93 17 239 1 1 1 
+ ind 5 has perfdegrad = 91870.01 and nodeLowRepres = 1
+913 91 
+ ind 6 has perfdegrad = 92942.48 and nodeLowRepres = 0
+1004 
+ ind 7 has perfdegrad = 88036.05 and nodeLowRepres = 0
+523 481 
+ ind 8 has perfdegrad = 72369.09 and nodeLowRepres = 3
+345 4 28 515 108 4 
+ ind 9 has perfdegrad = 91736.11 and nodeLowRepres = 1
+904 100 
+------------------------------
+f0 = [1, 4, 8]
+f1 = [0, 7, 2]
+ ind 0 has perfdegrad = 76313.41 and nodeLowRepres = 1
+371 8 363 262 
+ ind 1 has perfdegrad = 76318.01 and nodeLowRepres = 0
+371 371 262 
+ ind 2 has perfdegrad = 70044.87 and nodeLowRepres = 7
+371 262 7 12 93 17 239 1 1 1 
+ ind 3 has perfdegrad = 76318.01 and nodeLowRepres = 0
+371 371 262 
+ ind 4 has perfdegrad = 69826.59 and nodeLowRepres = 9
+371 262 7 12 17 7 239 21 65 1 1 1 
+ ind 5 has perfdegrad = 70044.87 and nodeLowRepres = 7
+371 262 7 12 93 17 239 1 1 1 
+ ind 6 has perfdegrad = 76313.41 and nodeLowRepres = 1
+371 8 363 262 
+ ind 7 has perfdegrad = 70044.87 and nodeLowRepres = 7
+371 262 7 12 93 17 239 1 1 1 
+ ind 8 has perfdegrad = 76313.41 and nodeLowRepres = 1
+371 8 363 262 
+ ind 9 has perfdegrad = 70044.87 and nodeLowRepres = 7
+371 262 7 12 93 17 239 1 1 1 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 7.68 segundos

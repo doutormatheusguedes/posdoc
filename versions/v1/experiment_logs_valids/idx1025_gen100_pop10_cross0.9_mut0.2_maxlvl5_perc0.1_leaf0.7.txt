@@ -1,0 +1,61 @@
+Executando combinação ID: 1025
+Parâmetros:
+ generations=100
+ pop_size=10
+ crossover_prob=0.9
+ mutation_prob=0.2
+ max_level=5
+ percentage_min_instances=0.1
+ node_is_leaf=0.7
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 86676.34 and nodeLowRepres = 1
+946 58 
+ ind 1 has perfdegrad = 72812.82 and nodeLowRepres = 3
+252 90 74 61 527 
+ ind 2 has perfdegrad = 83784.66 and nodeLowRepres = 0
+667 337 
+ ind 3 has perfdegrad = 92855.05 and nodeLowRepres = 1
+976 28 
+ ind 4 has perfdegrad = 84546.81 and nodeLowRepres = 0
+236 436 332 
+ ind 5 has perfdegrad = 77511.23 and nodeLowRepres = 0
+866 138 
+ ind 6 has perfdegrad = 81562.82 and nodeLowRepres = 2
+934 43 27 
+ ind 7 has perfdegrad = 88097.46 and nodeLowRepres = 2
+6 940 58 
+ ind 8 has perfdegrad = 90179.15 and nodeLowRepres = 1
+11 292 701 
+ ind 9 has perfdegrad = 83981.64 and nodeLowRepres = 4
+18 13 964 8 1 
+------------------------------
+f0 = [1, 5]
+f1 = [2, 6]
+ ind 0 has perfdegrad = 58687.41 and nodeLowRepres = 4
+106 1 100 4 161 22 175 268 167 
+ ind 1 has perfdegrad = 60421.43 and nodeLowRepres = 1
+106 104 26 172 161 268 167 
+ ind 2 has perfdegrad = 60421.43 and nodeLowRepres = 1
+106 104 26 172 161 268 167 
+ ind 3 has perfdegrad = 63530.00 and nodeLowRepres = 0
+106 198 104 161 268 167 
+ ind 4 has perfdegrad = 59291.06 and nodeLowRepres = 2
+104 106 1 161 22 175 268 167 
+ ind 5 has perfdegrad = 57047.41 and nodeLowRepres = 6
+106 1 100 4 22 175 268 167 88 73 
+ ind 6 has perfdegrad = 63530.00 and nodeLowRepres = 0
+106 198 104 161 268 167 
+ ind 7 has perfdegrad = 59291.06 and nodeLowRepres = 2
+104 106 1 161 22 175 268 167 
+ ind 8 has perfdegrad = 63530.00 and nodeLowRepres = 0
+106 198 104 161 268 167 
+ ind 9 has perfdegrad = 57047.41 and nodeLowRepres = 6
+106 1 100 4 22 175 268 167 88 73 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 105.62 segundos

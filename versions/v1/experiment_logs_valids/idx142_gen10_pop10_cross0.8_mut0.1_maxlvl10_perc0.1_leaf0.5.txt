@@ -1,0 +1,61 @@
+Executando combinação ID: 142
+Parâmetros:
+ generations=10
+ pop_size=10
+ crossover_prob=0.8
+ mutation_prob=0.1
+ max_level=10
+ percentage_min_instances=0.1
+ node_is_leaf=0.5
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 78828.80 and nodeLowRepres = 0
+712 292 
+ ind 1 has perfdegrad = 92942.46 and nodeLowRepres = 1
+1001 3 
+ ind 2 has perfdegrad = 89740.04 and nodeLowRepres = 5
+406 479 25 31 59 2 2 
+ ind 3 has perfdegrad = 87195.78 and nodeLowRepres = 0
+776 228 
+ ind 4 has perfdegrad = 87669.37 and nodeLowRepres = 1
+922 82 
+ ind 5 has perfdegrad = 80979.60 and nodeLowRepres = 10
+52 62 724 18 1 57 10 12 7 2 59 
+ ind 6 has perfdegrad = 90240.81 and nodeLowRepres = 3
+756 181 33 29 5 
+ ind 7 has perfdegrad = 69360.84 and nodeLowRepres = 4
+488 435 24 42 12 3 
+ ind 8 has perfdegrad = 56965.02 and nodeLowRepres = 11
+68 306 2 3 12 10 1 8 3 47 3 489 52 
+ ind 9 has perfdegrad = 87813.28 and nodeLowRepres = 5
+565 386 11 32 5 1 4 
+------------------------------
+f0 = [0, 7, 8]
+f1 = [3, 5]
+ ind 0 has perfdegrad = 56965.02 and nodeLowRepres = 11
+68 306 2 3 12 10 1 8 3 47 3 489 52 
+ ind 1 has perfdegrad = 78828.80 and nodeLowRepres = 0
+712 292 
+ ind 2 has perfdegrad = 78828.80 and nodeLowRepres = 0
+712 292 
+ ind 3 has perfdegrad = 56965.02 and nodeLowRepres = 11
+68 306 2 3 12 10 1 8 3 47 3 489 52 
+ ind 4 has perfdegrad = 56965.02 and nodeLowRepres = 11
+68 306 2 3 12 10 1 8 3 47 3 489 52 
+ ind 5 has perfdegrad = 57055.81 and nodeLowRepres = 10
+68 306 2 3 11 12 10 1 47 3 489 52 
+ ind 6 has perfdegrad = 57055.81 and nodeLowRepres = 10
+68 306 2 3 11 12 10 1 47 3 489 52 
+ ind 7 has perfdegrad = 56965.02 and nodeLowRepres = 11
+68 306 2 3 12 10 1 8 3 47 3 489 52 
+ ind 8 has perfdegrad = 56965.02 and nodeLowRepres = 11
+68 306 2 3 12 10 1 8 3 47 3 489 52 
+ ind 9 has perfdegrad = 78828.80 and nodeLowRepres = 0
+712 292 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 8.84 segundos

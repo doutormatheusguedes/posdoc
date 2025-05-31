@@ -1,0 +1,61 @@
+Executando combinação ID: 198
+Parâmetros:
+ generations=10
+ pop_size=10
+ crossover_prob=0.8
+ mutation_prob=0.4
+ max_level=7
+ percentage_min_instances=0.02
+ node_is_leaf=0.3
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 68583.40 and nodeLowRepres = 6
+55 3 121 31 4 44 8 29 15 2 233 200 126 100 32 1 
+ ind 1 has perfdegrad = 81209.87 and nodeLowRepres = 2
+691 235 3 1 30 44 
+ ind 2 has perfdegrad = 73589.07 and nodeLowRepres = 1
+470 149 279 16 59 31 
+ ind 3 has perfdegrad = 58179.93 and nodeLowRepres = 3
+158 32 65 211 13 4 64 82 63 149 7 108 48 
+ ind 4 has perfdegrad = 92942.48 and nodeLowRepres = 0
+1004 
+ ind 5 has perfdegrad = 89941.75 and nodeLowRepres = 3
+691 293 4 1 15 
+ ind 6 has perfdegrad = 82267.39 and nodeLowRepres = 2
+705 249 10 8 32 
+ ind 7 has perfdegrad = 92194.02 and nodeLowRepres = 4
+998 1 2 1 2 
+ ind 8 has perfdegrad = 67848.45 and nodeLowRepres = 3
+14 243 4 42 155 334 174 9 29 
+ ind 9 has perfdegrad = 92659.84 and nodeLowRepres = 2
+503 296 102 21 4 2 22 54 
+------------------------------
+f0 = [2, 3, 4]
+f1 = [1, 8]
+ ind 0 has perfdegrad = 64564.12 and nodeLowRepres = 1
+158 34 26 54 619 30 33 30 20 
+ ind 1 has perfdegrad = 69078.09 and nodeLowRepres = 0
+470 149 208 177 
+ ind 2 has perfdegrad = 69078.09 and nodeLowRepres = 0
+470 149 208 177 
+ ind 3 has perfdegrad = 69078.09 and nodeLowRepres = 0
+470 149 208 177 
+ ind 4 has perfdegrad = 69078.09 and nodeLowRepres = 0
+470 149 208 177 
+ ind 5 has perfdegrad = 54144.10 and nodeLowRepres = 3
+158 32 5 77 330 10 64 82 63 149 7 27 
+ ind 6 has perfdegrad = 69078.09 and nodeLowRepres = 0
+470 149 208 177 
+ ind 7 has perfdegrad = 54144.10 and nodeLowRepres = 3
+158 32 5 77 330 10 64 82 63 149 7 27 
+ ind 8 has perfdegrad = 63548.56 and nodeLowRepres = 2
+470 149 177 95 12 46 54 1 
+ ind 9 has perfdegrad = 69078.09 and nodeLowRepres = 0
+470 149 208 177 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 7.68 segundos

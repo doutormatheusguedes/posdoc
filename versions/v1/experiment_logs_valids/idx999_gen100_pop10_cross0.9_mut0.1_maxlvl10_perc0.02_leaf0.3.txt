@@ -1,0 +1,61 @@
+Executando combinação ID: 999
+Parâmetros:
+ generations=100
+ pop_size=10
+ crossover_prob=0.9
+ mutation_prob=0.1
+ max_level=10
+ percentage_min_instances=0.02
+ node_is_leaf=0.3
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 90587.77 and nodeLowRepres = 10
+898 1 14 2 26 3 2 32 8 2 2 13 1 
+ ind 1 has perfdegrad = 77363.97 and nodeLowRepres = 13
+139 69 15 12 10 95 132 325 173 2 2 6 5 8 1 1 2 1 6 
+ ind 2 has perfdegrad = 81014.64 and nodeLowRepres = 2
+700 27 260 2 15 
+ ind 3 has perfdegrad = 92707.10 and nodeLowRepres = 10
+536 419 1 7 9 1 1 9 18 1 1 1 
+ ind 4 has perfdegrad = 73458.02 and nodeLowRepres = 8
+407 101 29 70 248 106 2 19 6 4 1 7 3 1 
+ ind 5 has perfdegrad = 67187.05 and nodeLowRepres = 10
+140 118 151 24 1 14 1 8 39 243 1 7 185 1 25 1 42 2 1 
+ ind 6 has perfdegrad = 66459.08 and nodeLowRepres = 9
+33 3 69 6 746 3 13 33 12 15 57 8 5 1 
+ ind 7 has perfdegrad = 78955.62 and nodeLowRepres = 1
+901 49 17 37 
+ ind 8 has perfdegrad = 81808.52 and nodeLowRepres = 0
+388 616 
+ ind 9 has perfdegrad = 87279.52 and nodeLowRepres = 0
+653 312 39 
+------------------------------
+f0 = [4, 6, 7, 8]
+f1 = [5, 2, 9]
+ ind 0 has perfdegrad = 49531.13 and nodeLowRepres = 16
+146 148 37 49 1 10 38 1 22 3 32 7 2 44 11 54 2 1 57 4 8 81 5 31 132 13 27 3 10 22 3 
+ ind 1 has perfdegrad = 53320.17 and nodeLowRepres = 5
+146 148 37 78 49 108 66 1 10 22 3 32 44 11 81 5 31 132 
+ ind 2 has perfdegrad = 49531.63 and nodeLowRepres = 15
+146 148 37 49 1 10 38 1 22 3 32 7 44 11 54 2 3 57 4 8 81 5 31 132 13 27 3 10 22 3 
+ ind 3 has perfdegrad = 49531.13 and nodeLowRepres = 16
+146 148 37 49 1 10 38 1 22 3 32 7 2 44 11 54 2 1 57 4 8 81 5 31 132 13 27 3 10 22 3 
+ ind 4 has perfdegrad = 49531.13 and nodeLowRepres = 16
+146 148 37 49 1 10 38 1 22 3 32 7 2 44 11 54 2 1 57 4 8 81 5 31 132 13 27 3 10 22 3 
+ ind 5 has perfdegrad = 53320.17 and nodeLowRepres = 5
+146 148 37 78 49 108 66 1 10 22 3 32 44 11 81 5 31 132 
+ ind 6 has perfdegrad = 52032.02 and nodeLowRepres = 12
+146 148 37 49 66 1 10 38 1 22 3 32 44 11 57 4 8 81 5 31 132 13 27 3 10 22 3 
+ ind 7 has perfdegrad = 53320.17 and nodeLowRepres = 5
+146 148 37 78 49 108 66 1 10 22 3 32 44 11 81 5 31 132 
+ ind 8 has perfdegrad = 52651.64 and nodeLowRepres = 8
+146 148 37 78 49 66 1 10 38 1 22 3 32 44 11 57 4 8 81 5 31 132 
+ ind 9 has perfdegrad = 50199.66 and nodeLowRepres = 13
+146 148 37 49 108 1 10 22 3 32 7 2 44 11 54 2 1 81 5 31 132 13 27 3 10 22 3 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 82.28 segundos

@@ -1,0 +1,61 @@
+Executando combinação ID: 24
+Parâmetros:
+ generations=10
+ pop_size=10
+ crossover_prob=0.9
+ mutation_prob=0.1
+ max_level=7
+ percentage_min_instances=0.1
+ node_is_leaf=0.3
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 91464.85 and nodeLowRepres = 0
+202 802 
+ ind 1 has perfdegrad = 69687.75 and nodeLowRepres = 10
+20 106 1 574 1 162 10 69 9 1 41 7 3 
+ ind 2 has perfdegrad = 69815.26 and nodeLowRepres = 3
+321 96 9 30 548 
+ ind 3 has perfdegrad = 68304.43 and nodeLowRepres = 10
+68 184 3 133 13 363 37 5 21 92 50 5 30 
+ ind 4 has perfdegrad = 88220.47 and nodeLowRepres = 0
+313 691 
+ ind 5 has perfdegrad = 78485.56 and nodeLowRepres = 9
+21 245 113 26 559 2 1 6 19 7 2 3 
+ ind 6 has perfdegrad = 74151.71 and nodeLowRepres = 7
+317 259 13 28 15 80 256 16 7 13 
+ ind 7 has perfdegrad = 84858.27 and nodeLowRepres = 1
+995 9 
+ ind 8 has perfdegrad = 57401.34 and nodeLowRepres = 9
+261 417 19 141 10 28 6 5 51 6 22 38 
+ ind 9 has perfdegrad = 87444.32 and nodeLowRepres = 5
+349 369 235 5 4 1 1 40 
+------------------------------
+f0 = [2, 4, 7, 8]
+f1 = [6, 0, 9, 3]
+ ind 0 has perfdegrad = 88220.47 and nodeLowRepres = 0
+313 691 
+ ind 1 has perfdegrad = 57132.22 and nodeLowRepres = 8
+132 34 417 19 141 19 6 119 51 6 22 38 
+ ind 2 has perfdegrad = 88220.47 and nodeLowRepres = 0
+313 691 
+ ind 3 has perfdegrad = 60173.63 and nodeLowRepres = 4
+132 9 34 656 35 19 119 
+ ind 4 has perfdegrad = 57132.22 and nodeLowRepres = 8
+132 34 417 19 141 6 19 119 51 6 22 38 
+ ind 5 has perfdegrad = 60173.63 and nodeLowRepres = 4
+132 9 34 656 35 19 119 
+ ind 6 has perfdegrad = 88220.47 and nodeLowRepres = 0
+313 691 
+ ind 7 has perfdegrad = 60173.63 and nodeLowRepres = 4
+132 9 34 656 35 19 119 
+ ind 8 has perfdegrad = 57132.22 and nodeLowRepres = 8
+132 34 417 19 141 6 19 119 51 6 22 38 
+ ind 9 has perfdegrad = 60173.63 and nodeLowRepres = 4
+132 9 34 656 35 19 119 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 7.94 segundos

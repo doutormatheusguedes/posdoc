@@ -1,0 +1,61 @@
+Executando combinação ID: 27
+Parâmetros:
+ generations=10
+ pop_size=10
+ crossover_prob=0.9
+ mutation_prob=0.1
+ max_level=10
+ percentage_min_instances=0.02
+ node_is_leaf=0.3
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 68490.26 and nodeLowRepres = 7
+67 234 354 9 264 62 4 6 1 1 1 1 
+ ind 1 has perfdegrad = 81870.60 and nodeLowRepres = 4
+214 588 75 25 2 14 6 2 29 49 
+ ind 2 has perfdegrad = 64765.07 and nodeLowRepres = 5
+132 9 22 154 277 287 58 3 41 1 19 1 
+ ind 3 has perfdegrad = 84658.15 and nodeLowRepres = 0
+562 442 
+ ind 4 has perfdegrad = 73503.87 and nodeLowRepres = 12
+479 8 3 1 4 34 26 1 24 7 7 4 250 131 4 9 1 11 
+ ind 5 has perfdegrad = 88956.19 and nodeLowRepres = 2
+582 277 136 7 2 
+ ind 6 has perfdegrad = 65808.98 and nodeLowRepres = 12
+82 15 153 285 18 35 2 4 236 68 14 36 25 1 4 1 8 1 3 13 
+ ind 7 has perfdegrad = 85959.37 and nodeLowRepres = 2
+959 16 26 3 
+ ind 8 has perfdegrad = 87050.05 and nodeLowRepres = 8
+850 98 4 24 2 1 16 1 1 6 1 
+ ind 9 has perfdegrad = 75587.26 and nodeLowRepres = 4
+60 331 363 33 166 2 1 45 1 2 
+------------------------------
+f0 = [2, 3, 9]
+f1 = [0, 6, 7, 1]
+ ind 0 has perfdegrad = 84658.15 and nodeLowRepres = 0
+562 442 
+ ind 1 has perfdegrad = 84658.15 and nodeLowRepres = 0
+562 442 
+ ind 2 has perfdegrad = 67903.96 and nodeLowRepres = 6
+60 236 330 293 9 67 5 1 1 1 1 
+ ind 3 has perfdegrad = 61903.74 and nodeLowRepres = 9
+60 236 330 9 287 67 4 1 1 5 1 1 1 1 
+ ind 4 has perfdegrad = 67903.96 and nodeLowRepres = 6
+60 236 330 293 9 67 5 1 1 1 1 
+ ind 5 has perfdegrad = 82806.96 and nodeLowRepres = 1
+562 362 76 4 
+ ind 6 has perfdegrad = 67903.96 and nodeLowRepres = 6
+60 236 330 293 9 67 5 1 1 1 1 
+ ind 7 has perfdegrad = 61903.74 and nodeLowRepres = 9
+60 236 330 9 287 67 4 1 1 5 1 1 1 1 
+ ind 8 has perfdegrad = 84658.15 and nodeLowRepres = 0
+562 442 
+ ind 9 has perfdegrad = 61903.74 and nodeLowRepres = 9
+60 236 330 9 287 67 4 1 1 5 1 1 1 1 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 7.60 segundos

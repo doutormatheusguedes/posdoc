@@ -1,0 +1,61 @@
+Executando combinação ID: 1078
+Parâmetros:
+ generations=100
+ pop_size=10
+ crossover_prob=0.9
+ mutation_prob=0.4
+ max_level=10
+ percentage_min_instances=0.1
+ node_is_leaf=0.5
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 71845.89 and nodeLowRepres = 2
+76 213 296 7 287 125 
+ ind 1 has perfdegrad = 88751.38 and nodeLowRepres = 1
+6 751 247 
+ ind 2 has perfdegrad = 88044.58 and nodeLowRepres = 4
+196 736 57 7 2 6 
+ ind 3 has perfdegrad = 92942.48 and nodeLowRepres = 0
+1004 
+ ind 4 has perfdegrad = 86740.06 and nodeLowRepres = 6
+917 56 19 3 6 1 2 
+ ind 5 has perfdegrad = 89145.46 and nodeLowRepres = 2
+894 66 44 
+ ind 6 has perfdegrad = 91582.00 and nodeLowRepres = 1
+565 438 1 
+ ind 7 has perfdegrad = 92937.56 and nodeLowRepres = 2
+988 5 11 
+ ind 8 has perfdegrad = 83368.47 and nodeLowRepres = 0
+465 539 
+ ind 9 has perfdegrad = 87659.33 and nodeLowRepres = 0
+649 355 
+------------------------------
+f0 = [0, 8]
+f1 = [4, 9]
+ ind 0 has perfdegrad = 53557.58 and nodeLowRepres = 8
+379 213 287 43 39 5 8 1 7 12 10 
+ ind 1 has perfdegrad = 59716.23 and nodeLowRepres = 5
+11 213 306 287 125 1 3 50 8 
+ ind 2 has perfdegrad = 53557.58 and nodeLowRepres = 8
+379 213 287 43 5 8 7 12 39 1 10 
+ ind 3 has perfdegrad = 41898.49 and nodeLowRepres = 11
+11 213 306 287 1 3 58 43 17 39 5 12 8 1 
+ ind 4 has perfdegrad = 64454.97 and nodeLowRepres = 4
+11 213 412 306 1 3 58 
+ ind 5 has perfdegrad = 41120.80 and nodeLowRepres = 12
+11 213 306 287 1 3 58 43 39 5 7 12 8 1 10 
+ ind 6 has perfdegrad = 41120.80 and nodeLowRepres = 12
+11 213 306 287 1 3 58 43 39 5 8 1 7 12 10 
+ ind 7 has perfdegrad = 41120.80 and nodeLowRepres = 12
+11 213 306 287 1 3 58 43 39 5 8 1 7 12 10 
+ ind 8 has perfdegrad = 54335.27 and nodeLowRepres = 7
+379 213 287 43 17 39 5 8 12 1 
+ ind 9 has perfdegrad = 54335.27 and nodeLowRepres = 7
+379 213 287 43 17 5 8 12 39 1 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 105.87 segundos

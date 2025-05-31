@@ -1,0 +1,62 @@
+Executando combinação ID: 67
+Parâmetros:
+ generations=10
+ pop_size=10
+ crossover_prob=0.9
+ mutation_prob=0.2
+ max_level=10
+ percentage_min_instances=0.05
+ node_is_leaf=0.5
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 73914.90 and nodeLowRepres = 0
+505 246 187 66 
+ ind 1 has perfdegrad = 81888.77 and nodeLowRepres = 0
+479 319 206 
+ ind 2 has perfdegrad = 83802.05 and nodeLowRepres = 1
+771 34 199 
+ ind 3 has perfdegrad = 75820.69 and nodeLowRepres = 6
+42 35 1 633 149 10 99 31 4 
+ ind 4 has perfdegrad = 74661.33 and nodeLowRepres = 1
+125 259 50 97 64 409 
+ ind 5 has perfdegrad = 91643.85 and nodeLowRepres = 0
+841 163 
+ ind 6 has perfdegrad = 84429.37 and nodeLowRepres = 14
+565 53 29 10 268 26 21 1 3 1 1 2 4 2 2 15 1 
+ ind 7 has perfdegrad = 64059.71 and nodeLowRepres = 9
+78 17 535 65 222 14 2 44 1 7 12 6 1 
+ ind 8 has perfdegrad = 76558.13 and nodeLowRepres = 1
+729 2 273 
+ ind 9 has perfdegrad = 85653.92 and nodeLowRepres = 2
+787 1 57 130 29 
+------------------------------
+f0 = [0, 7]
+f1 = [1, 4]
+ ind 0 has perfdegrad = 65470.53 and nodeLowRepres = 8
+246 57 19 38 3 136 479 14 1 9 1 1 
+ ind 1 has perfdegrad = 65470.46 and nodeLowRepres = 9
+246 57 19 38 3 136 479 14 1 1 1 1 8 
+ ind 2 has perfdegrad = 65626.37 and nodeLowRepres = 3
+505 246 57 19 38 3 136 
+ ind 3 has perfdegrad = 65626.37 and nodeLowRepres = 3
+505 246 57 19 38 3 136 
+ ind 4 has perfdegrad = 65470.55 and nodeLowRepres = 7
+246 57 19 38 3 136 479 14 1 9 2 
+ ind 5 has perfdegrad = 69718.88 and nodeLowRepres = 0
+505 246 62 191 
+ ind 6 has perfdegrad = 65470.46 and nodeLowRepres = 9
+246 57 19 38 3 136 479 14 1 1 1 1 8 
+ ind 7 has perfdegrad = 65470.55 and nodeLowRepres = 7
+246 57 19 38 3 136 479 14 1 9 2 
+ ind 8 has perfdegrad = 80065.93 and nodeLowRepres = 1
+253 246 451 52 2 
+ ind 9 has perfdegrad = 83500.16 and nodeLowRepres = 0
+505 246 196 57 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7]
+f1 = [8, 9]
+Tempo total de execução: 8.17 segundos

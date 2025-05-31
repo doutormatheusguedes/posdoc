@@ -1,0 +1,61 @@
+Executando combinação ID: 100
+Parâmetros:
+ generations=10
+ pop_size=10
+ crossover_prob=0.9
+ mutation_prob=0.4
+ max_level=10
+ percentage_min_instances=0.02
+ node_is_leaf=0.5
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 91456.45 and nodeLowRepres = 0
+803 29 172 
+ ind 1 has perfdegrad = 91843.63 and nodeLowRepres = 0
+755 249 
+ ind 2 has perfdegrad = 81463.83 and nodeLowRepres = 1
+816 29 158 1 
+ ind 3 has perfdegrad = 80985.75 and nodeLowRepres = 1
+837 41 125 1 
+ ind 4 has perfdegrad = 78809.63 and nodeLowRepres = 0
+190 596 218 
+ ind 5 has perfdegrad = 73169.26 and nodeLowRepres = 1
+221 669 70 11 33 
+ ind 6 has perfdegrad = 92942.48 and nodeLowRepres = 0
+1004 
+ ind 7 has perfdegrad = 87649.86 and nodeLowRepres = 0
+48 127 718 73 38 
+ ind 8 has perfdegrad = 92942.48 and nodeLowRepres = 0
+1004 
+ ind 9 has perfdegrad = 79332.26 and nodeLowRepres = 2
+63 73 593 260 14 1 
+------------------------------
+f0 = [4, 5]
+f1 = [7, 3, 9]
+ ind 0 has perfdegrad = 69356.08 and nodeLowRepres = 3
+221 438 103 11 113 15 59 11 33 
+ ind 1 has perfdegrad = 69356.08 and nodeLowRepres = 3
+221 438 103 11 113 15 59 11 33 
+ ind 2 has perfdegrad = 73169.26 and nodeLowRepres = 1
+221 669 70 11 33 
+ ind 3 has perfdegrad = 69392.54 and nodeLowRepres = 2
+221 231 438 11 59 11 33 
+ ind 4 has perfdegrad = 69356.08 and nodeLowRepres = 3
+221 438 103 11 113 15 59 11 33 
+ ind 5 has perfdegrad = 69392.54 and nodeLowRepres = 2
+221 231 438 11 59 11 33 
+ ind 6 has perfdegrad = 69356.08 and nodeLowRepres = 3
+221 438 103 11 113 15 59 11 33 
+ ind 7 has perfdegrad = 69356.08 and nodeLowRepres = 3
+221 438 103 11 113 15 59 11 33 
+ ind 8 has perfdegrad = 77145.12 and nodeLowRepres = 0
+221 715 68 
+ ind 9 has perfdegrad = 73169.26 and nodeLowRepres = 1
+221 669 70 11 33 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 8.24 segundos

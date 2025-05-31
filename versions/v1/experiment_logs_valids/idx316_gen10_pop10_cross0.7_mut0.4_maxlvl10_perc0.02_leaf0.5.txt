@@ -1,0 +1,61 @@
+Executando combinação ID: 316
+Parâmetros:
+ generations=10
+ pop_size=10
+ crossover_prob=0.7
+ mutation_prob=0.4
+ max_level=10
+ percentage_min_instances=0.02
+ node_is_leaf=0.5
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 90671.56 and nodeLowRepres = 0
+323 123 558 
+ ind 1 has perfdegrad = 76590.37 and nodeLowRepres = 9
+278 1 1 170 40 1 89 313 53 6 3 1 29 11 7 1 
+ ind 2 has perfdegrad = 86389.26 and nodeLowRepres = 1
+30 682 101 22 88 79 2 
+ ind 3 has perfdegrad = 92529.77 and nodeLowRepres = 0
+937 67 
+ ind 4 has perfdegrad = 88384.66 and nodeLowRepres = 0
+137 867 
+ ind 5 has perfdegrad = 88213.53 and nodeLowRepres = 0
+21 22 899 62 
+ ind 6 has perfdegrad = 86660.98 and nodeLowRepres = 1
+618 5 243 84 54 
+ ind 7 has perfdegrad = 87760.14 and nodeLowRepres = 0
+896 108 
+ ind 8 has perfdegrad = 75481.12 and nodeLowRepres = 0
+313 138 553 
+ ind 9 has perfdegrad = 76276.25 and nodeLowRepres = 1
+229 732 37 6 
+------------------------------
+f0 = [8]
+f1 = [7, 9]
+ ind 0 has perfdegrad = 61621.07 and nodeLowRepres = 5
+12 203 75 74 267 10 17 4 10 332 
+ ind 1 has perfdegrad = 55887.79 and nodeLowRepres = 6
+12 203 75 74 267 10 17 4 10 314 18 
+ ind 2 has perfdegrad = 55887.79 and nodeLowRepres = 6
+12 203 75 74 267 10 17 4 10 314 18 
+ ind 3 has perfdegrad = 55887.79 and nodeLowRepres = 6
+12 203 75 74 267 10 17 4 10 314 18 
+ ind 4 has perfdegrad = 64068.68 and nodeLowRepres = 2
+313 75 267 17 314 18 
+ ind 5 has perfdegrad = 63806.77 and nodeLowRepres = 4
+12 203 75 74 349 267 10 4 10 
+ ind 6 has perfdegrad = 63806.77 and nodeLowRepres = 4
+12 203 75 74 349 267 10 4 10 
+ ind 7 has perfdegrad = 64068.68 and nodeLowRepres = 2
+313 75 267 17 314 18 
+ ind 8 has perfdegrad = 64068.68 and nodeLowRepres = 2
+313 75 267 17 314 18 
+ ind 9 has perfdegrad = 64068.68 and nodeLowRepres = 2
+313 75 267 17 314 18 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 10.08 segundos

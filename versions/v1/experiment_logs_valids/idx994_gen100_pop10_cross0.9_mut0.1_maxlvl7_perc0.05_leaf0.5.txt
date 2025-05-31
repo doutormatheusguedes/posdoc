@@ -1,0 +1,61 @@
+Executando combinação ID: 994
+Parâmetros:
+ generations=100
+ pop_size=10
+ crossover_prob=0.9
+ mutation_prob=0.1
+ max_level=7
+ percentage_min_instances=0.05
+ node_is_leaf=0.5
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 90701.88 and nodeLowRepres = 1
+867 111 26 
+ ind 1 has perfdegrad = 92921.09 and nodeLowRepres = 2
+865 23 105 11 
+ ind 2 has perfdegrad = 87331.80 and nodeLowRepres = 2
+6 765 18 215 
+ ind 3 has perfdegrad = 92942.48 and nodeLowRepres = 0
+1004 
+ ind 4 has perfdegrad = 91205.60 and nodeLowRepres = 0
+824 180 
+ ind 5 has perfdegrad = 82729.44 and nodeLowRepres = 7
+947 13 1 4 3 17 3 16 
+ ind 6 has perfdegrad = 86168.21 and nodeLowRepres = 5
+765 33 131 29 43 1 2 
+ ind 7 has perfdegrad = 88220.47 and nodeLowRepres = 0
+313 691 
+ ind 8 has perfdegrad = 86174.94 and nodeLowRepres = 0
+864 140 
+ ind 9 has perfdegrad = 74469.60 and nodeLowRepres = 1
+106 35 453 106 201 103 
+------------------------------
+f0 = [8, 9]
+f1 = [7, 2, 5, 6]
+ ind 0 has perfdegrad = 59588.44 and nodeLowRepres = 3
+138 106 285 221 221 16 16 1 
+ ind 1 has perfdegrad = 89845.25 and nodeLowRepres = 0
+138 106 442 318 
+ ind 2 has perfdegrad = 89845.25 and nodeLowRepres = 0
+138 106 442 318 
+ ind 3 has perfdegrad = 59588.44 and nodeLowRepres = 3
+138 106 285 221 221 16 16 1 
+ ind 4 has perfdegrad = 89845.25 and nodeLowRepres = 0
+138 106 442 318 
+ ind 5 has perfdegrad = 59588.44 and nodeLowRepres = 3
+138 106 285 221 221 16 16 1 
+ ind 6 has perfdegrad = 72124.59 and nodeLowRepres = 2
+138 106 285 104 7 356 8 
+ ind 7 has perfdegrad = 72124.59 and nodeLowRepres = 2
+138 106 285 104 7 356 8 
+ ind 8 has perfdegrad = 89845.25 and nodeLowRepres = 0
+138 106 442 318 
+ ind 9 has perfdegrad = 59588.44 and nodeLowRepres = 3
+138 106 285 221 221 16 16 1 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 67.08 segundos

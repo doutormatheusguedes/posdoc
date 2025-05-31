@@ -1,0 +1,61 @@
+Executando combinação ID: 25
+Parâmetros:
+ generations=10
+ pop_size=10
+ crossover_prob=0.9
+ mutation_prob=0.1
+ max_level=7
+ percentage_min_instances=0.1
+ node_is_leaf=0.5
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 71569.04 and nodeLowRepres = 2
+301 23 306 319 55 
+ ind 1 has perfdegrad = 71694.51 and nodeLowRepres = 3
+348 16 298 287 53 2 
+ ind 2 has perfdegrad = 75636.28 and nodeLowRepres = 2
+17 751 46 190 
+ ind 3 has perfdegrad = 81016.74 and nodeLowRepres = 0
+706 298 
+ ind 4 has perfdegrad = 80934.15 and nodeLowRepres = 0
+639 365 
+ ind 5 has perfdegrad = 69642.36 and nodeLowRepres = 5
+9 373 48 130 53 126 236 28 1 
+ ind 6 has perfdegrad = 80021.04 and nodeLowRepres = 6
+720 128 1 26 1 13 1 112 2 
+ ind 7 has perfdegrad = 72810.09 and nodeLowRepres = 2
+21 16 734 233 
+ ind 8 has perfdegrad = 68390.57 and nodeLowRepres = 4
+409 20 300 256 3 15 1 
+ ind 9 has perfdegrad = 81422.00 and nodeLowRepres = 3
+530 22 62 335 55 
+------------------------------
+f0 = [0, 4, 8]
+f1 = [1, 7, 3, 5]
+ ind 0 has perfdegrad = 68520.46 and nodeLowRepres = 3
+409 20 300 4 256 15 
+ ind 1 has perfdegrad = 86214.59 and nodeLowRepres = 2
+571 409 20 4 
+ ind 2 has perfdegrad = 68390.57 and nodeLowRepres = 4
+409 20 300 256 3 15 1 
+ ind 3 has perfdegrad = 86214.59 and nodeLowRepres = 2
+571 409 20 4 
+ ind 4 has perfdegrad = 68390.57 and nodeLowRepres = 4
+409 20 300 256 3 15 1 
+ ind 5 has perfdegrad = 68520.46 and nodeLowRepres = 3
+409 20 300 4 256 15 
+ ind 6 has perfdegrad = 86214.59 and nodeLowRepres = 2
+571 409 20 4 
+ ind 7 has perfdegrad = 86214.59 and nodeLowRepres = 2
+571 409 20 4 
+ ind 8 has perfdegrad = 86214.59 and nodeLowRepres = 2
+571 409 20 4 
+ ind 9 has perfdegrad = 68390.57 and nodeLowRepres = 4
+409 20 300 256 3 15 1 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 8.23 segundos

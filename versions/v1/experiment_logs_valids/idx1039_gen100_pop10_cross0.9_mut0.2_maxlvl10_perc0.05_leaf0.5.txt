@@ -1,0 +1,61 @@
+Executando combinação ID: 1039
+Parâmetros:
+ generations=100
+ pop_size=10
+ crossover_prob=0.9
+ mutation_prob=0.2
+ max_level=10
+ percentage_min_instances=0.05
+ node_is_leaf=0.5
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 92161.50 and nodeLowRepres = 0
+883 121 
+ ind 1 has perfdegrad = 80550.14 and nodeLowRepres = 0
+558 446 
+ ind 2 has perfdegrad = 92909.82 and nodeLowRepres = 1
+1002 2 
+ ind 3 has perfdegrad = 88003.26 and nodeLowRepres = 0
+855 149 
+ ind 4 has perfdegrad = 87818.40 and nodeLowRepres = 0
+786 218 
+ ind 5 has perfdegrad = 81064.91 and nodeLowRepres = 1
+82 84 44 794 
+ ind 6 has perfdegrad = 75091.20 and nodeLowRepres = 0
+730 147 127 
+ ind 7 has perfdegrad = 91435.63 and nodeLowRepres = 0
+322 523 159 
+ ind 8 has perfdegrad = 86284.40 and nodeLowRepres = 2
+959 2 43 
+ ind 9 has perfdegrad = 81250.76 and nodeLowRepres = 1
+23 856 125 
+------------------------------
+f0 = [6]
+f1 = [1]
+ ind 0 has perfdegrad = 64689.56 and nodeLowRepres = 1
+58 94 139 369 124 91 1 128 
+ ind 1 has perfdegrad = 58222.44 and nodeLowRepres = 5
+58 94 369 184 128 30 1 1 12 105 22 
+ ind 2 has perfdegrad = 64689.56 and nodeLowRepres = 1
+58 94 139 369 124 91 1 128 
+ ind 3 has perfdegrad = 58226.69 and nodeLowRepres = 3
+58 94 139 369 184 128 30 1 1 
+ ind 4 has perfdegrad = 58222.44 and nodeLowRepres = 5
+58 94 369 184 128 30 1 12 105 22 1 
+ ind 5 has perfdegrad = 58222.44 and nodeLowRepres = 5
+58 94 369 184 128 30 1 12 105 22 1 
+ ind 6 has perfdegrad = 58226.69 and nodeLowRepres = 3
+58 94 139 369 184 128 30 1 1 
+ ind 7 has perfdegrad = 58222.44 and nodeLowRepres = 5
+58 94 369 184 128 30 1 12 105 22 1 
+ ind 8 has perfdegrad = 58222.44 and nodeLowRepres = 5
+58 94 369 184 128 30 1 12 105 22 1 
+ ind 9 has perfdegrad = 64689.56 and nodeLowRepres = 1
+58 94 139 369 124 91 128 1 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 107.23 segundos

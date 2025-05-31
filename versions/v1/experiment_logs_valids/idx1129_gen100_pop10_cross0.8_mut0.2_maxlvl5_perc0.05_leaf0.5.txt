@@ -1,0 +1,61 @@
+Executando combinação ID: 1129
+Parâmetros:
+ generations=100
+ pop_size=10
+ crossover_prob=0.8
+ mutation_prob=0.2
+ max_level=5
+ percentage_min_instances=0.05
+ node_is_leaf=0.5
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 87447.28 and nodeLowRepres = 3
+211 776 8 7 2 
+ ind 1 has perfdegrad = 88218.16 and nodeLowRepres = 1
+832 12 160 
+ ind 2 has perfdegrad = 57962.72 and nodeLowRepres = 4
+709 196 10 47 21 21 
+ ind 3 has perfdegrad = 92504.47 and nodeLowRepres = 2
+991 12 1 
+ ind 4 has perfdegrad = 88823.04 and nodeLowRepres = 3
+402 546 2 44 10 
+ ind 5 has perfdegrad = 76656.33 and nodeLowRepres = 4
+304 25 27 482 47 12 107 
+ ind 6 has perfdegrad = 68373.98 and nodeLowRepres = 0
+304 147 58 357 138 
+ ind 7 has perfdegrad = 79763.60 and nodeLowRepres = 5
+25 332 66 45 31 7 496 2 
+ ind 8 has perfdegrad = 66474.16 and nodeLowRepres = 5
+36 565 53 24 115 7 1 32 116 55 
+ ind 9 has perfdegrad = 92621.53 and nodeLowRepres = 3
+953 12 28 11 
+------------------------------
+f0 = [2, 6]
+f1 = [8, 0, 1, 5]
+ ind 0 has perfdegrad = 53251.54 and nodeLowRepres = 3
+147 67 93 72 18 54 338 157 39 19 
+ ind 1 has perfdegrad = 54398.17 and nodeLowRepres = 1
+147 93 58 54 98 5 54 338 157 
+ ind 2 has perfdegrad = 54398.17 and nodeLowRepres = 1
+147 93 58 54 98 5 54 338 157 
+ ind 3 has perfdegrad = 63867.25 and nodeLowRepres = 0
+304 93 58 54 338 157 
+ ind 4 has perfdegrad = 63867.25 and nodeLowRepres = 0
+304 93 58 54 338 157 
+ ind 5 has perfdegrad = 54398.17 and nodeLowRepres = 1
+147 93 58 54 98 5 54 338 157 
+ ind 6 has perfdegrad = 63867.25 and nodeLowRepres = 0
+304 93 58 54 338 157 
+ ind 7 has perfdegrad = 54398.17 and nodeLowRepres = 1
+147 93 58 54 98 5 54 338 157 
+ ind 8 has perfdegrad = 53251.54 and nodeLowRepres = 3
+147 67 93 72 18 54 338 157 39 19 
+ ind 9 has perfdegrad = 63867.25 and nodeLowRepres = 0
+304 93 58 54 338 157 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 98.04 segundos

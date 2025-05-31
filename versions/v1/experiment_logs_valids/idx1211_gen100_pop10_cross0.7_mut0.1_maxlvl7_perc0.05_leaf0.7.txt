@@ -1,0 +1,61 @@
+Executando combinação ID: 1211
+Parâmetros:
+ generations=100
+ pop_size=10
+ crossover_prob=0.7
+ mutation_prob=0.1
+ max_level=7
+ percentage_min_instances=0.05
+ node_is_leaf=0.7
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 86105.94 and nodeLowRepres = 0
+166 838 
+ ind 1 has perfdegrad = 88456.80 and nodeLowRepres = 0
+324 680 
+ ind 2 has perfdegrad = 72177.65 and nodeLowRepres = 2
+189 100 1 482 223 9 
+ ind 3 has perfdegrad = 67840.99 and nodeLowRepres = 1
+146 109 663 77 9 
+ ind 4 has perfdegrad = 81493.25 and nodeLowRepres = 1
+88 4 564 348 
+ ind 5 has perfdegrad = 86848.13 and nodeLowRepres = 0
+743 95 166 
+ ind 6 has perfdegrad = 88102.62 and nodeLowRepres = 1
+165 482 334 23 
+ ind 7 has perfdegrad = 63751.46 and nodeLowRepres = 2
+12 101 430 2 393 66 
+ ind 8 has perfdegrad = 83945.88 and nodeLowRepres = 1
+950 2 52 
+ ind 9 has perfdegrad = 92378.33 and nodeLowRepres = 1
+980 24 
+------------------------------
+f0 = [0, 3, 7]
+f1 = [5, 4, 2]
+ ind 0 has perfdegrad = 65092.52 and nodeLowRepres = 0
+87 79 65 140 378 87 168 
+ ind 1 has perfdegrad = 65092.52 and nodeLowRepres = 0
+87 79 65 140 378 87 168 
+ ind 2 has perfdegrad = 59470.60 and nodeLowRepres = 3
+87 79 140 1 378 54 87 168 7 3 
+ ind 3 has perfdegrad = 65092.52 and nodeLowRepres = 0
+87 79 65 140 378 87 168 
+ ind 4 has perfdegrad = 59470.60 and nodeLowRepres = 3
+87 79 140 1 378 54 87 7 3 168 
+ ind 5 has perfdegrad = 65092.52 and nodeLowRepres = 0
+87 79 65 140 378 87 168 
+ ind 6 has perfdegrad = 65092.52 and nodeLowRepres = 0
+87 79 65 140 378 87 168 
+ ind 7 has perfdegrad = 65092.52 and nodeLowRepres = 0
+87 79 65 140 378 87 168 
+ ind 8 has perfdegrad = 65092.52 and nodeLowRepres = 0
+87 79 65 140 378 87 168 
+ ind 9 has perfdegrad = 61327.27 and nodeLowRepres = 1
+87 79 140 64 378 87 1 168 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 109.76 segundos

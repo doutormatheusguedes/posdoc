@@ -1,0 +1,61 @@
+Executando combinação ID: 1291
+Parâmetros:
+ generations=100
+ pop_size=10
+ crossover_prob=0.7
+ mutation_prob=0.4
+ max_level=10
+ percentage_min_instances=0.05
+ node_is_leaf=0.5
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 70132.46 and nodeLowRepres = 4
+743 15 212 20 8 6 
+ ind 1 has perfdegrad = 85486.86 and nodeLowRepres = 1
+870 129 5 
+ ind 2 has perfdegrad = 91355.50 and nodeLowRepres = 0
+211 793 
+ ind 3 has perfdegrad = 87127.47 and nodeLowRepres = 0
+665 339 
+ ind 4 has perfdegrad = 69270.51 and nodeLowRepres = 8
+188 58 318 155 23 22 4 52 105 1 11 15 14 38 
+ ind 5 has perfdegrad = 81319.03 and nodeLowRepres = 5
+190 730 1 12 19 43 9 
+ ind 6 has perfdegrad = 68887.33 and nodeLowRepres = 9
+148 32 6 9 408 40 124 160 39 10 16 5 7 
+ ind 7 has perfdegrad = 86697.65 and nodeLowRepres = 3
+947 37 5 15 
+ ind 8 has perfdegrad = 90090.97 and nodeLowRepres = 0
+572 432 
+ ind 9 has perfdegrad = 64314.81 and nodeLowRepres = 3
+2 8 77 127 81 37 66 167 439 
+------------------------------
+f0 = [1, 3, 9]
+f1 = [8, 0, 4, 6, 7]
+ ind 0 has perfdegrad = 68307.12 and nodeLowRepres = 0
+52 82 136 417 317 
+ ind 1 has perfdegrad = 68307.12 and nodeLowRepres = 0
+52 82 136 417 317 
+ ind 2 has perfdegrad = 49885.32 and nodeLowRepres = 7
+52 82 136 317 12 77 52 149 55 4 38 9 11 6 4 
+ ind 3 has perfdegrad = 64350.36 and nodeLowRepres = 1
+52 82 245 29 163 433 
+ ind 4 has perfdegrad = 68307.12 and nodeLowRepres = 0
+52 82 136 417 317 
+ ind 5 has perfdegrad = 68307.12 and nodeLowRepres = 0
+52 82 136 417 317 
+ ind 6 has perfdegrad = 49605.67 and nodeLowRepres = 11
+52 82 136 317 12 77 52 55 38 9 11 3 1 96 4 48 1 6 4 
+ ind 7 has perfdegrad = 68307.12 and nodeLowRepres = 0
+52 82 136 417 317 
+ ind 8 has perfdegrad = 68307.12 and nodeLowRepres = 0
+52 82 136 417 317 
+ ind 9 has perfdegrad = 49885.32 and nodeLowRepres = 7
+52 82 136 317 12 77 52 149 55 4 38 9 11 6 4 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 111.80 segundos

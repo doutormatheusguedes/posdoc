@@ -1,0 +1,61 @@
+Executando combinação ID: 1091
+Parâmetros:
+ generations=100
+ pop_size=10
+ crossover_prob=0.8
+ mutation_prob=0.1
+ max_level=5
+ percentage_min_instances=0.02
+ node_is_leaf=0.7
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0 has perfdegrad = 92353.27 and nodeLowRepres = 1
+13 991 
+ ind 1 has perfdegrad = 92942.48 and nodeLowRepres = 0
+1004 
+ ind 2 has perfdegrad = 81389.57 and nodeLowRepres = 0
+597 407 
+ ind 3 has perfdegrad = 85125.98 and nodeLowRepres = 0
+692 284 28 
+ ind 4 has perfdegrad = 89368.46 and nodeLowRepres = 1
+964 34 6 
+ ind 5 has perfdegrad = 80204.40 and nodeLowRepres = 2
+873 14 107 10 
+ ind 6 has perfdegrad = 88537.17 and nodeLowRepres = 0
+307 697 
+ ind 7 has perfdegrad = 90944.78 and nodeLowRepres = 0
+899 105 
+ ind 8 has perfdegrad = 92350.84 and nodeLowRepres = 0
+920 84 
+ ind 9 has perfdegrad = 76073.80 and nodeLowRepres = 0
+304 526 174 
+------------------------------
+f0 = [9]
+f1 = [2, 5]
+ ind 0 has perfdegrad = 50729.01 and nodeLowRepres = 0
+21 25 261 22 65 84 495 31 
+ ind 1 has perfdegrad = 50729.01 and nodeLowRepres = 0
+21 25 261 22 65 84 495 31 
+ ind 2 has perfdegrad = 50640.23 and nodeLowRepres = 1
+21 261 22 65 84 22 3 495 31 
+ ind 3 has perfdegrad = 50640.23 and nodeLowRepres = 1
+21 261 22 65 84 22 3 495 31 
+ ind 4 has perfdegrad = 50729.01 and nodeLowRepres = 0
+21 25 261 22 65 84 495 31 
+ ind 5 has perfdegrad = 50640.23 and nodeLowRepres = 1
+21 261 22 65 84 22 3 495 31 
+ ind 6 has perfdegrad = 50640.23 and nodeLowRepres = 1
+21 261 22 65 84 22 3 495 31 
+ ind 7 has perfdegrad = 50640.23 and nodeLowRepres = 1
+21 261 22 65 84 22 3 495 31 
+ ind 8 has perfdegrad = 50729.01 and nodeLowRepres = 0
+21 25 261 22 65 84 495 31 
+ ind 9 has perfdegrad = 50729.01 and nodeLowRepres = 0
+21 25 261 22 65 84 495 31 
+f0 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tempo total de execução: 108.53 segundos
