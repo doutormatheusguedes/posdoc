@@ -31,43 +31,43 @@ combinations = product(
 )
 
 for idx, combo in enumerate(combinations):
-    if idx >= 17:
-        gen, genwi,pop, cross_prob, mut_prob, max_lvl, perc_min, node_leaf = combo
-        cmd = [
-            "python",
-            ".\\main.py",
-            str(gen),
-            str(genwi),
-            str(pop),
-            str(cross_prob),
-            str(mut_prob),
-            str(max_lvl),
-            str(perc_min),
-            str(node_leaf)
-        ]
+    
+    gen, genwi,pop, cross_prob, mut_prob, max_lvl, perc_min, node_leaf = combo
+    cmd = [
+        "python",
+        ".\\main.py",
+        str(gen),
+        str(genwi),
+        str(pop),
+        str(cross_prob),
+        str(mut_prob),
+        str(max_lvl),
+        str(perc_min),
+        str(node_leaf)
+    ]
 
-        # Nome do arquivo baseado na configuração
-        log_filename = f"idx{idx}_gen{gen}_genwi{genwi}_pop{pop}_cross{cross_prob}_mut{mut_prob}_maxlvl{max_lvl}_perc{perc_min}_leaf{node_leaf}.txt"
-        log_path = os.path.join(log_dir, log_filename)
+    # Nome do arquivo baseado na configuração
+    log_filename = f"idx{idx}_gen{gen}_genwi{genwi}_pop{pop}_cross{cross_prob}_mut{mut_prob}_maxlvl{max_lvl}_perc{perc_min}_leaf{node_leaf}.txt"
+    log_path = os.path.join(log_dir, log_filename)
 
-        with open(log_path, "w", encoding="utf-8") as f:
-            # Cabeçalho com configuração e id
-            f.write(f"Executando combinação ID: {idx}\n")
-            f.write(f"Parâmetros:\n")
-            f.write(f" generations={gen}\n")
-            f.write(f" generations without improvement={genwi}\n")
-            f.write(f" pop_size={pop}\n")
-            f.write(f" crossover_prob={cross_prob}\n")
-            f.write(f" mutation_prob={mut_prob}\n")
-            f.write(f" max_level={max_lvl}\n")
-            f.write(f" percentage_min_instances={perc_min}\n")
-            f.write(f" node_is_leaf={node_leaf}\n")
-            f.write("="*40 + "\n\n")
+    with open(log_path, "w", encoding="utf-8") as f:
+        # Cabeçalho com configuração e id
+        f.write(f"Executando combinação ID: {idx}\n")
+        f.write(f"Parâmetros:\n")
+        f.write(f" generations={gen}\n")
+        f.write(f" generations without improvement={genwi}\n")
+        f.write(f" pop_size={pop}\n")
+        f.write(f" crossover_prob={cross_prob}\n")
+        f.write(f" mutation_prob={mut_prob}\n")
+        f.write(f" max_level={max_lvl}\n")
+        f.write(f" percentage_min_instances={perc_min}\n")
+        f.write(f" node_is_leaf={node_leaf}\n")
+        f.write("="*40 + "\n\n")
 
-            print(f"Rodando: {' '.join(cmd)}  --> log: {log_path}")
+        print(f"Rodando: {' '.join(cmd)}  --> log: {log_path}")
 
-            # Executar e capturar saída
-            processo = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+        # Executar e capturar saída
+        processo = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
 
-            # Escrever saída do processo no arquivo
-            f.write(processo.stdout)
+        # Escrever saída do processo no arquivo
+        f.write(processo.stdout)

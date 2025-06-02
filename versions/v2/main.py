@@ -4,7 +4,7 @@ from utils import ler_arquivo_entrada, algoritmo_menor_degradacao
 import time
 
 
-file_path = "bases\input_data_paper_2019.txt"
+file_path = "../../bases/input_data_paper_2019.txt"
 features, instances, algorithms, vbs = ler_arquivo_entrada(file_path)
 print(f"\nVirtual Best Solver (VBS): {vbs:.2f}")
 algoritmo_menor_degradacao(algorithms)
