@@ -2,6 +2,7 @@ import random
 import copy
 import sys
 import os
+import math
 
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
@@ -407,7 +408,7 @@ def mutate_prune_or_grow(individual, features, max_nodes, node_is_leaf):
         candidatos = [i for i in range(max_nodes) if individual["leafNode"][i] == 0 and 2 * i + 1 < max_nodes]
         if not candidatos:
             return
-        no = random.choice(candidatos)
+        no = sortear_no_por_nivel_uniforme(individual, candidatos)
         # Poda
         individual["leafNode"][no] = 1
         individual["featureNode"][no] = None
@@ -419,7 +420,7 @@ def mutate_prune_or_grow(individual, features, max_nodes, node_is_leaf):
         candidatos = [i for i in range(max_nodes) if individual["leafNode"][i] == 1 and 2 * i + 1 < max_nodes]
         if not candidatos:
             return
-        no = random.choice(candidatos)
+        no = sortear_no_por_nivel_uniforme(individual, candidatos)
 
         def recriar(i, primeiro_no=False):
             if i >= max_nodes:
@@ -452,6 +453,25 @@ def mutate_prune_or_grow(individual, features, max_nodes, node_is_leaf):
 
         recriar(no, primeiro_no=True)
 
+def sortear_indice_por_nivel_uniforme(indices_validos):
+    """
+    Sorteia um índice com chance uniforme por nível (nível calculado dinamicamente).
+    """
+    
+
+    # Agrupar os índices por nível
+    por_nivel = {}
+    for i in indices_validos:
+        nivel = int(math.floor(math.log2(i + 1)))
+        por_nivel.setdefault(nivel, []).append(i)
+
+    # Escolher nível com mesma chance
+    nivel_escolhido = random.choice(list(por_nivel.keys()))
+
+    # Escolher um índice dentro do nível
+    return random.choice(por_nivel[nivel_escolhido])
+
+
 
 def subtree_crossover_vector(p1, p2, max_nodes):
     """Executa crossover por subárvore entre dois indivíduos codificados vetorialmente."""
@@ -461,7 +481,7 @@ def subtree_crossover_vector(p1, p2, max_nodes):
         # Não há crossover possível, retorna cópias
         return copy.deepcopy(p1), copy.deepcopy(p2)
 
-    crossover_point = random.choice(valid_indices)
+    crossover_point = sortear_indice_por_nivel_uniforme(valid_indices)
 
     # 2. Pega os índices da subárvore
     #print(f"indice do no escolhido para crossover: {crossover_point}")
@@ -557,13 +577,35 @@ def binary_tournament(a, b, rank, distance):
         else:
             print("Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!")
             return random.choice([a, b])
+        
+def sortear_no_por_nivel_uniforme(individual, candidatos):
+    """
+    Sorteia um nó interno entre os candidatos com chance igual por nível.
+    Calcula o nível dinamicamente com base na posição do nó.
+    
+    individual: dicionário que contém "leafNode"
+    candidatos: lista de índices dos nós internos (leafNode[i] == 0)
+    """
+    # Agrupar os candidatos por nível, calculando o nível dinamicamente
+    nos_por_nivel = {}
+    for i in candidatos:
+        nivel = int(math.floor(math.log2(i + 1)))
+        nos_por_nivel.setdefault(nivel, []).append(i)
+
+    # Sortear um nível entre os níveis presentes (chance igual por nível)
+    nivel_escolhido = random.choice(list(nos_por_nivel.keys()))
+
+    # Sortear um nó dentro do nível escolhido
+    no_alvo = random.choice(nos_por_nivel[nivel_escolhido])
+    return no_alvo
+
 
 def mutate_replace_subtree(individual, features, max_nodes, node_is_leaf):
     # Seleciona um nó interno aleatório
     candidatos = [i for i in range(max_nodes) if individual["leafNode"][i] == 0]
     if not candidatos:
         return  # nada a fazer
-    no_alvo = random.choice(candidatos)
+    no_alvo = sortear_no_por_nivel_uniforme(individual, candidatos)
 
     # Invalida subárvore a partir do nó alvo
     invalidate_subtree(no_alvo, max_nodes, [True]*max_nodes, individual)
@@ -592,18 +634,7 @@ def mutate_replace_subtree(individual, features, max_nodes, node_is_leaf):
     recriar(no_alvo)
 
 
-def binary_tournament(a, b, rank, distance):
-    if rank[a] < rank[b]:
-        return a
-    elif rank[a] > rank[b]:
-        return b
-    else:
-        if distance[a] > distance[b]:
-            return a
-        elif distance[a] < distance[b]:
-            return b
-        else:
-            return random.choice([a, b])
+
 
 
 def get_instances_for_leaf(i, feature_nodes, cutoff_nodes, instances):
