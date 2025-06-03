@@ -72,16 +72,16 @@ def nsga(generations, generations_no_improve, pop_size, max_nodes, features, alg
             #print(f"mutation_prob = {mutation_prob}")
             if random.random() < mutation_prob:
                 if random.random() < 0.5:
-                    mutate_replace_subtree(child1, features, max_nodes, node_is_leaf)
+                    mutate_replace_subtree(instances, child1, features, max_nodes, node_is_leaf)
                 else:
-                    mutate_prune_or_grow(child1, features, max_nodes, node_is_leaf)
+                    mutate_prune_or_grow(instances, child1, features, max_nodes, node_is_leaf)
 
             # MUTAÇÕES EM child2
             if random.random() < mutation_prob:
                 if random.random() < 0.5:
-                    mutate_replace_subtree(child2, features, max_nodes, node_is_leaf)
+                    mutate_replace_subtree(instances, child2, features, max_nodes, node_is_leaf)
                 else:
-                    mutate_prune_or_grow(child2, features, max_nodes, node_is_leaf)
+                    mutate_prune_or_grow(instances, child2, features, max_nodes, node_is_leaf)
 
             # Avaliação
             evaluate_individual(child1, algorithms, instances, min_instances_per_leafnode, max_nodes)
@@ -400,7 +400,7 @@ def get_subtree_indices(start_index, max_nodes):
     dfs(start_index)
     return indices
 
-def mutate_prune_or_grow(individual, features, max_nodes, node_is_leaf):
+def mutate_prune_or_grow(conjunto_instances, individual, features, max_nodes, node_is_leaf):
     tipo = random.choice(["poda", "crescimento"])
     
     if tipo == "poda":
@@ -441,9 +441,45 @@ def mutate_prune_or_grow(individual, features, max_nodes, node_is_leaf):
                 if not is_last_level and random.random() >= node_is_leaf:
                     fname, feature = random.choice(list(features.items()))
                     cutoff = random.choice(list(feature.pontos_de_corte))
-                    individual["featureNode"][i] = fname
-                    individual["cutoff_pointNode"][i] = cutoff
-                    individual["leafNode"][i] = 0
+
+                    insts_no_no = get_instances_for_leaf(
+                        i,
+                        individual["featureNode"],
+                        individual["cutoff_pointNode"],
+                        conjunto_instances
+                    )
+                    subtrees = split_instances(insts_no_no, fname, cutoff)
+                    #print(f"len insts_no_no = {len(insts_no_no)}")
+                    qtd_total = len(conjunto_instances)
+                    #print(f"qtd = {qtd_total}")
+                    representativo = all(len(subset) >= min(10, 0.1 * qtd_total) for subset in subtrees)
+
+                    if not representativo:
+                        # TENTA UM NOVO PAR (FEATURE, CUTOFF)
+                        fname2, feature2 = random.choice(list(features.items()))
+                        cutoff2 = random.choice(list(feature2.pontos_de_corte))
+                        subtrees2 = split_instances(insts_no_no, fname2, cutoff2)
+                        representativo2 = all(len(subset) >= min(10, 0.1 * qtd_total) for subset in subtrees2)
+
+                        if not representativo2:
+                            # Falhou novamente → vira folha
+                            individual["leafNode"][i] = 1
+                            individual["featureNode"][i] = None
+                            individual["cutoff_pointNode"][i] = None
+                            return
+                        else:
+                            # Sucesso com nova feature e cutoff
+                            individual["featureNode"][i] = fname2
+                            individual["cutoff_pointNode"][i] = cutoff2
+                            individual["leafNode"][i] = 0
+                    else:
+                        # Sucesso com primeiro par
+                        individual["featureNode"][i] = fname
+                        individual["cutoff_pointNode"][i] = cutoff
+                        individual["leafNode"][i] = 0
+
+                    # Continua recursão para os filhos
+                    
                     recriar(2 * i + 1)
                     recriar(2 * i + 2)
                 else:
@@ -600,7 +636,7 @@ def sortear_no_por_nivel_uniforme(individual, candidatos):
     return no_alvo
 
 
-def mutate_replace_subtree(individual, features, max_nodes, node_is_leaf):
+def mutate_replace_subtree(conjunto_instances, individual, features, max_nodes, node_is_leaf):
     # Seleciona um nó interno aleatório
     candidatos = [i for i in range(max_nodes) if individual["leafNode"][i] == 0]
     if not candidatos:
@@ -618,9 +654,41 @@ def mutate_replace_subtree(individual, features, max_nodes, node_is_leaf):
         if not is_last_level and random.random() >= node_is_leaf:
             fname, feature = random.choice(list(features.items()))
             cutoff = random.choice(list(feature.pontos_de_corte))
-            individual["featureNode"][i] = fname
-            individual["cutoff_pointNode"][i] = cutoff
-            individual["leafNode"][i] = 0
+            insts_no_no = get_instances_for_leaf(
+                i,
+                individual["featureNode"],
+                individual["cutoff_pointNode"],
+                conjunto_instances
+            )
+            subtrees = split_instances(insts_no_no, fname, cutoff)
+
+            qtd_total = len(conjunto_instances)
+            representativo = all(len(subset) >= min(10, 0.1 * qtd_total) for subset in subtrees)
+
+            if not representativo:
+                # TENTA UM NOVO PAR (FEATURE, CUTOFF)
+                fname2, feature2 = random.choice(list(features.items()))
+                cutoff2 = random.choice(list(feature2.pontos_de_corte))
+                subtrees2 = split_instances(insts_no_no, fname2, cutoff2)
+                representativo2 = all(len(subset) >= min(10, 0.1 * qtd_total) for subset in subtrees2)
+
+                if not representativo2:
+                    # Falhou novamente → vira folha
+                    individual["leafNode"][i] = 1
+                    individual["featureNode"][i] = None
+                    individual["cutoff_pointNode"][i] = None
+                    return
+                else:
+                    # Sucesso com nova feature e cutoff
+                    individual["featureNode"][i] = fname2
+                    individual["cutoff_pointNode"][i] = cutoff2
+                    individual["leafNode"][i] = 0
+            else:
+                # Sucesso com primeiro par
+                individual["featureNode"][i] = fname
+                individual["cutoff_pointNode"][i] = cutoff
+                individual["leafNode"][i] = 0
+
             recriar(2 * i + 1)
             recriar(2 * i + 2)
 
@@ -734,6 +802,42 @@ def non_dominated_sort(population):
             break
     return fronts  # Lista de frentes (com índices)
 
+def split_instances(instances, feature_name, cutoff):
+    esquerda = [inst for inst in instances if inst.features[feature_name] <= cutoff]
+    direita = [inst for inst in instances if inst.features[feature_name] > cutoff]
+    return [esquerda, direita]
+
+def tentar_corrigir_divisao(conjunto_instances, instances, features, feature_atual, cutoff_atual, min_instances_per_leafnode):
+    
+    
+    lim_min = min(10, (0.1 * len(conjunto_instances))) if len(conjunto_instances) > 0 else 0
+    #print(f"lim_min = {lim_min}")
+    # 1) Tenta mudar só o ponto de corte (1 tentativa)
+    pontos_corte = list(features[feature_atual].pontos_de_corte)
+    pontos_corte = [c for c in pontos_corte if c != cutoff_atual]
+    random.shuffle(pontos_corte)
+    if pontos_corte:
+        novo_corte = pontos_corte[0]
+        left_subset, right_subset = split_instances(instances, feature_atual, novo_corte)
+        if len(left_subset) >= lim_min and len(right_subset) >= lim_min:
+            return feature_atual, novo_corte
+
+    # 2) Tenta mudar feature e ponto de corte juntos (1 tentativa)
+    features_lista = list(features.items())
+    random.shuffle(features_lista)
+    for fname, feature in features_lista:
+        if fname == feature_atual:
+            continue
+        pontos_corte = list(feature.pontos_de_corte)
+        if pontos_corte:
+            cutoff = random.choice(pontos_corte)
+            left_subset, right_subset = split_instances(instances, fname, cutoff)
+            if len(left_subset) >= lim_min and len(right_subset) >= lim_min:
+                return fname, cutoff
+
+    # 3) Não conseguiu, retorna None para virar folha
+    return None, None
+
 def generate_initial_population(flag, pop_size, max_nodes, features, algorithms, instances, min_instances_per_leafnode, node_is_leaf):
     population = []
 
@@ -761,6 +865,68 @@ def generate_initial_population(flag, pop_size, max_nodes, features, algorithms,
                     continue
             
             is_last_level = (2 * i + 1 >= max_nodes)
+
+            # ===== NÓ RAIZ COM AVALIAÇÃO DE 5 FEATURES E 5 PONTOS DE CORTE =====
+            if i == 0:
+                candidatos = []
+                for _ in range(5):
+                    fname, feature = random.choice(list(features.items()))
+                    cutoff = random.choice(list(feature.pontos_de_corte))
+                    
+                    # Divide instâncias com o par (fname, cutoff)
+                    subtrees = split_instances(instances, fname, cutoff)
+                    
+                    # Calcula os dois objetivos
+                    total_degradacao = 0
+                    total_penalidade = 0
+                    
+                    for subset in subtrees:
+                        if subset:
+                            # Melhor algoritmo para o subset (mínimo da soma das degradações)
+                            best = min(
+                                (sum(inst.degradacoes[alg] for inst in subset), alg)
+                                for alg in algorithms
+                            )
+                            total_degradacao += best[0]
+                            
+                            # Penalidade para baixa representação
+                            tamanho = len(subset)
+                            if tamanho < min_instances_per_leafnode and tamanho > 0:
+                                penalidade = max(1, ((min_instances_per_leafnode - tamanho)**2) / min_instances_per_leafnode)
+                            else:
+                                penalidade = 0
+                            total_penalidade += penalidade
+                    
+                    candidatos.append({
+                        "feature": fname,
+                        "cutoff": cutoff,
+                        "degradacao": total_degradacao,
+                        "penalidade": total_penalidade
+                    })
+                
+                # Função para verificar se a solução a domina b
+                def domina(a, b):
+                    return (a["degradacao"] <= b["degradacao"] and a["penalidade"] <= b["penalidade"]) and \
+                        (a["degradacao"] < b["degradacao"] or a["penalidade"] < b["penalidade"])
+                
+                # Encontra os não dominados
+                nao_dominados = []
+                for c in candidatos:
+                    if not any(domina(outro, c) for outro in candidatos if outro != c):
+                        nao_dominados.append(c)
+                
+                # Escolhe aleatoriamente entre os não dominados, ou se vazio, aleatório entre todos
+                if nao_dominados:
+                    escolhido = random.choice(nao_dominados)
+                else:
+                    escolhido = random.choice(candidatos)
+                
+                #print(f"candidatos = {candidatos}")
+                individual["featureNode"][i] = escolhido["feature"]
+                individual["cutoff_pointNode"][i] = escolhido["cutoff"]
+                #print(f"Escolhido f {escolhido['feature']} e pc {escolhido['cutoff']}")
+                continue
+
 
             # Randomly decide if this node will be a leaf, except for the root node (node 0)
             if i != 0 and (random.random() < node_is_leaf or is_last_level):
@@ -799,9 +965,50 @@ def generate_initial_population(flag, pop_size, max_nodes, features, algorithms,
                 continue
 
             # Randomly select feature and cutoff
+            # Determina as instâncias que chegaram até este nó
+            insts_no_no = get_instances_for_leaf(
+                i,
+                individual["featureNode"],
+                individual["cutoff_pointNode"],
+                instances
+            )
             fname, feature = random.choice(list(features.items()))
             cutoffs = list(feature.pontos_de_corte)
             cutoff = random.choice(cutoffs)
+            left_subset, right_subset = split_instances(insts_no_no, fname, cutoff)
+            #print(f"instances = {len(instances)}")
+            lim_min = min(10, (0.1 * len(instances))) if len(insts_no_no) > 0 else 0
+            #print(f"lim_min = {lim_min}")
+            if len(left_subset) < lim_min or len(right_subset) < lim_min:
+                fname_corrigido, cutoff_corrigido = tentar_corrigir_divisao(instances, insts_no_no, features, fname, cutoff, min_instances_per_leafnode)
+
+                if fname_corrigido is None:
+                    # vira folha
+                    individual["leafNode"][i] = 1
+                    insts_ate_aqui = insts_no_no
+                    individual["problemsInLeafNode"][i] = [inst.nome for inst in insts_ate_aqui]
+
+                    if insts_ate_aqui:
+                        min_total = float("inf")
+                        best_alg = None
+                        for alg_name in algorithms:
+                            soma = sum(inst.degradacoes[alg_name] for inst in insts_ate_aqui)
+                            if soma < min_total:
+                                min_total = soma
+                                best_alg = alg_name
+                        individual["algorithmLeafNode"][i] = best_alg
+                        if len(insts_ate_aqui) < min_instances_per_leafnode and len(insts_ate_aqui) > 0:
+                            penalty = max(1, ((min_instances_per_leafnode - len(insts_ate_aqui)) ** 2) / min_instances_per_leafnode)
+                            individual["count_low_representation_nodes"] += penalty
+                        individual["value_performance_degradation"] += min_total
+                    else:
+                        individual["algorithmLeafNode"][i] = None
+
+                    invalidate_subtree(2 * i + 1, max_nodes, valid_nodes, individual)
+                    invalidate_subtree(2 * i + 2, max_nodes, valid_nodes, individual)
+                    continue
+                else:
+                    fname, cutoff = fname_corrigido, cutoff_corrigido
 
             individual["featureNode"][i] = fname
             individual["cutoff_pointNode"][i] = cutoff
