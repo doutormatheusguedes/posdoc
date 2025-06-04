@@ -26,12 +26,9 @@
 | VBS (Virtual Best Solver)            | 22257.99  |
 | SBA (Single Best Algorithm)          | 92942.48  |
 | Default (InitialSolve)                | 118465.86 |
-| VND* | 46209.56  |
+| VND ([paper link](https://onlinelibrary.wiley.com/doi/abs/10.1111/itor.12724)) | 46209.56  |
 | NSGA-II-v2                             | 38945.78  |
 
-* [paper link](https://onlinelibrary.wiley.com/doi/abs/10.1111/itor.12724)
-
-## Análise dos Resultados / Results Analysis
 
 Our approach is the only one that considers conflicting objectives in the optimization problem. In this context, we present some interesting results below: even though one or another node is indicated as having low representativeness, the values are very close to the desired threshold, which reinforces the quality of the solutions found.
 
