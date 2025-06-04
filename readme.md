@@ -6,6 +6,8 @@ This repository contains multiple versions of the NSGA-II algorithm, developed t
 
 Each version is organized in its own subdirectory and includes a dedicated `README.md` file describing the updates and improvements introduced in that version.
 
+Results of the experiments are stored in the `experiment_logs_valids` folder, within each version's directory.
+
 **How to run a single experiment:**  
 `python3.11 main.py {nog} {ps} {cr} {mr} {mtd} {r} {ilnp}`
 
