@@ -21,7 +21,11 @@
 
 📈 **Summary Analysis of Result**
 
-- Teste 1
+- vbs (virtual best solver)	22257,99
+sba (single best algorithm)	92942,48
+default (initialSolve)	118465,86
+vnd (https://onlinelibrary.wiley.com/doi/abs/10.1111/itor.12724) 46209,56
+nsga-II 38945,78
 
 - Teste 2
 
@@ -33,7 +37,7 @@ New features and fixes implemented:
 
 - **Avoid duplication in the new population**: In version v1, it was observed that the new population often contained duplicate individuals. Now, when selecting by Pareto front and crowding distance, if an individual already exists in the new population, new individuals are generated until the population is completed without duplicates.
 
-- **Correction in penalty for nodes with low representativeness**: The previous metric only checked if the number of instances in the node was below a threshold, without considering how far below it was. Now the penalty is proportional: `if n_instances < (r * |I|): penalty += max(1, (((r * |I|) - n_instances) ** 2) / (r * |I|))`
+- **Correction in penalty for nodes with low representativeness**: The previous metric only checked if the number of instances in the node was below a threshold, without considering how far below it was. Now the penalty is proportional: ```if n_instances < (r * |I|): penalty += max(1, (((r * |I|) - n_instances) ** 2) / (r * |I|))```
 
 - **Fix in level selection probability during individual construction**: Since the number of nodes per level grows exponentially (level 0 has 1 node, level 1 has 2, level 10 has 1024), lower levels (deeper in the tree) had a much higher chance of being selected, leading to upper levels (closer to the root) being underrepresented. Now, all levels have the same chance of being chosen, promoting a fairer tree construction.
 
