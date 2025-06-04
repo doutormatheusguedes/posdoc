@@ -2,13 +2,14 @@
 
 **Version:** v2
 
+### 🆕 Summary of Updates from v1 to v2
+- **New input parameter:** `Number of generations without improvement` (`nogwi`). This allows the algorithm to stop early when no further progress is observed over a defined number of generations.
+
 **How to run an experiment:** python3.11 .\main.py `{nog}` `{nogwi}` `{ps}` `{cr}` `{mr}` `{mtd}` `{r}` `{ilnp}`
 
 **Script to run multiple experiments:** python3.11 .\run_experiments.py
 
 **Evaluated Parameters**
-
-Another input parameter has been added: number of generations without improvement
 
 | Parameters                       | Values                |
 | --------------------------------- | ---------------------- |
@@ -21,5 +22,9 @@ Another input parameter has been added: number of generations without improvemen
 | Representativeness (%) `{r}`                    | `(0.05)` |
 | Is leaf node probability `{ilnp}`	                    | `(0.5)` |
 
+📈 **Summary Analysis of Result**
 
+- Teste 1
+
+- Teste 2
 
