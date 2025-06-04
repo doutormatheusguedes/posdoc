@@ -26,7 +26,7 @@
 | vbs (virtual best solver)            | 22257.99  |
 | sba (single best algorithm)          | 92942.48  |
 | default (initialSolve)                | 118465.86 |
-| vnd* | 46,209.56  |
+| vnd* | 46209.56  |
 | nsga-II                             | 38945.78  |
 
 * [paper link](https://onlinelibrary.wiley.com/doi/abs/10.1111/itor.12724)
