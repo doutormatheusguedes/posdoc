@@ -33,10 +33,7 @@ New features and fixes implemented:
 
 - **Avoid duplication in the new population**: In version v1, it was observed that the new population often contained duplicate individuals. Now, when selecting by Pareto front and crowding distance, if an individual already exists in the new population, new individuals are generated until the population is completed without duplicates.
 
-- **Correction in penalty for nodes with low representativeness**: The previous metric only checked if the number of instances in the node was below a threshold, without considering how far below it was. Now the penalty is proportional:
-
-if n_instances < 50:
-    penalty += max(1, ((50 - n_instances) ** 2) / 50)
+- **Correction in penalty for nodes with low representativeness**: The previous metric only checked if the number of instances in the node was below a threshold, without considering how far below it was. Now the penalty is proportional: `if n_instances < 50: penalty += max(1, ((50 - n_instances) ** 2) / 50)`
 
 - **Fix in level selection probability during individual construction**: Since the number of nodes per level grows exponentially (level 0 has 1 node, level 1 has 2, level 10 has 1024), lower levels (deeper in the tree) had a much higher chance of being selected, leading to upper levels (closer to the root) being underrepresented. Now, all levels have the same chance of being chosen, promoting a fairer tree construction.
 
