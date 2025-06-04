@@ -36,7 +36,7 @@ The threshold used for representativeness is 50.2, calculated as |I| = 1004 mult
 
 ### Examples of selected individuals
 
-|    Performance Degradation | Nodes with Low Representativeness (`< 50,2`)|  Indicated Nodes                             |
+|    Performance Degradation | Nodes with Low Representativeness (`< 50,2`)                |  Indicated Nodes                             |
 |----------------------------------|-------------------------------------------------------------------------------------------|--------------------------------------------------------|
 |  34250.41                                           | 7.14                                                               | 117 71 66 52 **47** 58 **44** **49** 113 75 57 **43** 52 **40** **43** 77           |
 |  36757.69                                           | 4.03                                                               | 67 117 71 66 54 92 52 **47** **49** 113 75 57 **43** 57 **44**           |
