@@ -22,7 +22,7 @@
 📈 **Summary Analysis of Result**
 
 | Method                                | Value      |
-|-------------------------------------|------------|
+|-------------------------------------|------------:|
 | vbs (virtual best solver)            | 22257.99  |
 | sba (single best algorithm)          | 92942.48  |
 | default (initialSolve)                | 118465.86 |
