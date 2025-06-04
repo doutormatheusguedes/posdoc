@@ -21,13 +21,15 @@
 
 📈 **Summary Analysis of Result**
 
-- vbs (virtual best solver)	22257,99
-sba (single best algorithm)	92942,48
-default (initialSolve)	118465,86
-vnd (https://onlinelibrary.wiley.com/doi/abs/10.1111/itor.12724) 46209,56
-nsga-II 38945,78
+| Method                                | Value      |
+|-------------------------------------|------------|
+| vbs (virtual best solver)            | 22257.99  |
+| sba (single best algorithm)          | 92942.48  |
+| default (initialSolve)                | 118465.86 |
+| vnd* | 46,209.56  |
+| nsga-II                             | 38945.78  |
 
-- Teste 2
+* [paper link](https://onlinelibrary.wiley.com/doi/abs/10.1111/itor.12724)
 
 📌 **Release Notes - Version v2**
 
