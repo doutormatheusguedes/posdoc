@@ -1,0 +1,1060 @@
+Executando combinação ID: 23
+Parâmetros:
+ generations=1000
+ generations without improvement=50
+ pop_size=100
+ crossover_prob=0.7
+ mutation_prob=0.4
+ max_level=10
+ percentage_min_instances=0.05
+ node_is_leaf=0.5
+ obj1=2
+ obj2=3
+========================================
+
+
+Virtual Best Solver (VBS): 22257.99
+dualp-pesteep-psi--1.0-duals (SBA) = 92942.48
+default (initialSolve): 118465.86
+:::::::::População inicial:::::::::
+ ind 0: perfdegrad = 81317.90, nodeLowRepres = 109.72031872509962, max distance = 1.33
+instances in each leaf node:  651 300 10 15 10 18 
+
+ ind 1: perfdegrad = 71045.40, nodeLowRepres = 29.63505976095618, max distance = 1.14
+instances in each leaf node:  260 21 91 62 221 25 324 
+
+ ind 2: perfdegrad = 77908.30, nodeLowRepres = 116.9003984063745, max distance = 1.21
+instances in each leaf node:  63 125 79 287 221 37 78 64 13 14 13 10 
+
+ ind 3: perfdegrad = 88343.29, nodeLowRepres = 0, max distance = 1.02
+instances in each leaf node:  915 89 
+
+ ind 4: perfdegrad = 76438.01, nodeLowRepres = 26.104382470119525, max distance = 1.09
+instances in each leaf node:  398 230 296 66 14 
+
+ ind 5: perfdegrad = 81740.10, nodeLowRepres = 0, max distance = 1.00
+instances in each leaf node:  927 77 
+
+ ind 6: perfdegrad = 80286.78, nodeLowRepres = 56.87410358565738, max distance = 0.95
+instances in each leaf node:  832 147 10 15 
+
+ ind 7: perfdegrad = 81683.10, nodeLowRepres = 0, max distance = 1.24
+instances in each leaf node:  299 654 51 
+
+ ind 8: perfdegrad = 80839.36, nodeLowRepres = 0, max distance = 1.08
+instances in each leaf node:  352 652 
+
+ ind 9: perfdegrad = 69292.30, nodeLowRepres = 36.66294820717132, max distance = 1.04
+instances in each leaf node:  492 348 37 10 68 49 
+
+ ind 10: perfdegrad = 77117.95, nodeLowRepres = 25.98565737051793, max distance = 1.21
+instances in each leaf node:  815 82 41 50 16 
+
+ ind 11: perfdegrad = 88187.96, nodeLowRepres = 32.192031872509965, max distance = 1.96
+instances in each leaf node:  994 10 
+
+ ind 12: perfdegrad = 85932.79, nodeLowRepres = 0, max distance = 1.23
+instances in each leaf node:  688 230 86 
+
+ ind 13: perfdegrad = 64425.18, nodeLowRepres = 33.878087649402396, max distance = 1.37
+instances in each leaf node:  41 286 437 59 10 171 
+
+ ind 14: perfdegrad = 72201.49, nodeLowRepres = 7.101195219123509, max distance = 1.41
+instances in each leaf node:  870 35 60 39 
+
+ ind 15: perfdegrad = 80790.72, nodeLowRepres = 0, max distance = 1.04
+instances in each leaf node:  700 77 227 
+
+ ind 16: perfdegrad = 71826.69, nodeLowRepres = 58.038247011952194, max distance = 1.19
+instances in each leaf node:  161 118 576 90 18 28 13 
+
+ ind 17: perfdegrad = 75372.95, nodeLowRepres = 134.402390438247, max distance = 0.98
+instances in each leaf node:  882 18 10 54 15 15 10 
+
+ ind 18: perfdegrad = 77782.80, nodeLowRepres = 13.674103585657374, max distance = 1.31
+instances in each leaf node:  289 66 24 370 255 
+
+ ind 19: perfdegrad = 77825.63, nodeLowRepres = 161.95856573705183, max distance = 1.23
+instances in each leaf node:  40 30 188 10 656 26 15 17 10 12 
+
+ ind 20: perfdegrad = 87923.06, nodeLowRepres = 0, max distance = 1.02
+instances in each leaf node:  913 91 
+
+ ind 21: perfdegrad = 76619.17, nodeLowRepres = 8.952988047808766, max distance = 1.02
+instances in each leaf node:  184 791 29 
+
+ ind 22: perfdegrad = 74157.92, nodeLowRepres = 19.39123505976096, max distance = 1.07
+instances in each leaf node:  117 769 99 19 
+
+ ind 23: perfdegrad = 81776.65, nodeLowRepres = 53.325099601593635, max distance = 1.13
+instances in each leaf node:  846 90 10 20 38 
+
+ ind 24: perfdegrad = 83528.52, nodeLowRepres = 80.80398406374503, max distance = 0.85
+instances in each leaf node:  111 719 13 29 24 97 11 
+
+ ind 25: perfdegrad = 84701.77, nodeLowRepres = 0, max distance = 1.12
+instances in each leaf node:  621 383 
+
+ ind 26: perfdegrad = 88247.08, nodeLowRepres = 27.566533864541835, max distance = 1.37
+instances in each leaf node:  991 13 
+
+ ind 27: perfdegrad = 85743.68, nodeLowRepres = 0, max distance = 1.12
+instances in each leaf node:  433 506 65 
+
+ ind 28: perfdegrad = 79381.32, nodeLowRepres = 4.470916334661355, max distance = 1.10
+instances in each leaf node:  132 37 310 49 292 184 
+
+ ind 29: perfdegrad = 77360.54, nodeLowRepres = 0, max distance = 1.08
+instances in each leaf node:  530 317 80 77 
+
+ ind 30: perfdegrad = 82230.70, nodeLowRepres = 30.898007968127494, max distance = 1.11
+instances in each leaf node:  62 602 32 246 16 46 
+
+ ind 31: perfdegrad = 83728.67, nodeLowRepres = 0, max distance = 1.02
+instances in each leaf node:  440 564 
+
+ ind 32: perfdegrad = 70414.67, nodeLowRepres = 158.6350597609562, max distance = 1.15
+instances in each leaf node:  613 269 10 20 13 14 35 11 19 
+
+ ind 33: perfdegrad = 80053.65, nodeLowRepres = 36.33625498007969, max distance = 1.02
+instances in each leaf node:  211 626 73 20 20 54 
+
+ ind 34: perfdegrad = 83941.28, nodeLowRepres = 0, max distance = 1.02
+instances in each leaf node:  719 285 
+
+ ind 35: perfdegrad = 83786.49, nodeLowRepres = 72.86294820717131, max distance = 1.14
+instances in each leaf node:  14 481 477 14 18 
+
+ ind 36: perfdegrad = 85830.88, nodeLowRepres = 0, max distance = 1.20
+instances in each leaf node:  62 813 129 
+
+ ind 37: perfdegrad = 82937.92, nodeLowRepres = 46.929880478087654, max distance = 1.18
+instances in each leaf node:  308 612 51 10 23 
+
+ ind 38: perfdegrad = 75419.76, nodeLowRepres = 36.82629482071714, max distance = 1.06
+instances in each leaf node:  156 722 85 27 14 
+
+ ind 39: perfdegrad = 81167.20, nodeLowRepres = 87.78406374501992, max distance = 1.25
+instances in each leaf node:  784 60 29 11 18 13 89 
+
+ ind 40: perfdegrad = 68036.45, nodeLowRepres = 213.89003984063746, max distance = 1.27
+instances in each leaf node:  62 59 13 17 15 145 18 35 61 26 23 271 39 83 65 12 12 23 25 
+
+ ind 41: perfdegrad = 77041.71, nodeLowRepres = 82.8589641434263, max distance = 1.19
+instances in each leaf node:  598 173 72 11 13 64 58 15 
+
+ ind 42: perfdegrad = 85529.76, nodeLowRepres = 0, max distance = 1.01
+instances in each leaf node:  925 79 
+
+ ind 43: perfdegrad = 77406.96, nodeLowRepres = 24.682071713147412, max distance = 1.00
+instances in each leaf node:  860 129 15 
+
+ ind 44: perfdegrad = 78095.08, nodeLowRepres = 108.13545816733071, max distance = 1.21
+instances in each leaf node:  377 21 412 20 128 17 12 17 
+
+ ind 45: perfdegrad = 51395.97, nodeLowRepres = 337.38406374502, max distance = 1.26
+instances in each leaf node:  13 302 16 13 12 23 29 17 14 23 16 264 38 108 16 11 19 28 22 20 
+
+ ind 46: perfdegrad = 81861.13, nodeLowRepres = 81.91474103585658, max distance = 1.16
+instances in each leaf node:  435 353 176 18 10 12 
+
+ ind 47: perfdegrad = 55314.63, nodeLowRepres = 165.42948207171318, max distance = 1.37
+instances in each leaf node:  541 38 11 18 33 101 23 70 52 50 19 14 19 15 
+
+ ind 48: perfdegrad = 60921.25, nodeLowRepres = 161.2956175298805, max distance = 1.42
+instances in each leaf node:  10 47 655 44 11 22 19 10 12 71 103 
+
+ ind 49: perfdegrad = 73133.43, nodeLowRepres = 25.340239043824706, max distance = 1.12
+instances in each leaf node:  449 330 175 26 24 
+
+ ind 50: perfdegrad = 75729.72, nodeLowRepres = 1.3394422310756982, max distance = 1.29
+instances in each leaf node:  155 807 42 
+
+ ind 51: perfdegrad = 85160.95, nodeLowRepres = 0, max distance = 1.18
+instances in each leaf node:  85 709 210 
+
+ ind 52: perfdegrad = 78823.53, nodeLowRepres = 0, max distance = 1.15
+instances in each leaf node:  303 641 60 
+
+ ind 53: perfdegrad = 58115.87, nodeLowRepres = 23.583266932270924, max distance = 1.07
+instances in each leaf node:  685 95 111 32 60 21 
+
+ ind 54: perfdegrad = 72942.66, nodeLowRepres = 27.74741035856574, max distance = 1.07
+instances in each leaf node:  855 43 43 48 15 
+
+ ind 55: perfdegrad = 81596.99, nodeLowRepres = 72.51235059760958, max distance = 1.28
+instances in each leaf node:  900 30 10 54 10 
+
+ ind 56: perfdegrad = 83947.43, nodeLowRepres = 0, max distance = 1.01
+instances in each leaf node:  847 157 
+
+ ind 57: perfdegrad = 83375.16, nodeLowRepres = 0, max distance = 1.06
+instances in each leaf node:  402 602 
+
+ ind 58: perfdegrad = 71997.10, nodeLowRepres = 126.65338645418328, max distance = 1.09
+instances in each leaf node:  176 436 58 261 13 17 12 17 14 
+
+ ind 59: perfdegrad = 80191.34, nodeLowRepres = 0, max distance = 0.98
+instances in each leaf node:  846 87 71 
+
+ ind 60: perfdegrad = 78573.05, nodeLowRepres = 30.531474103585662, max distance = 1.12
+instances in each leaf node:  772 13 181 38 
+
+ ind 61: perfdegrad = 75708.87, nodeLowRepres = 134.42390438247014, max distance = 1.26
+instances in each leaf node:  861 27 17 17 12 13 18 39 
+
+ ind 62: perfdegrad = 87530.27, nodeLowRepres = 28.566533864541835, max distance = 1.32
+instances in each leaf node:  870 45 13 76 
+
+ ind 63: perfdegrad = 78472.18, nodeLowRepres = 0, max distance = 1.36
+instances in each leaf node:  859 145 
+
+ ind 64: perfdegrad = 73425.71, nodeLowRepres = 27.316334661354585, max distance = 1.19
+instances in each leaf node:  725 36 16 73 154 
+
+ ind 65: perfdegrad = 85201.79, nodeLowRepres = 0, max distance = 0.90
+instances in each leaf node:  760 165 79 
+
+ ind 66: perfdegrad = 76866.84, nodeLowRepres = 30.610358565737055, max distance = 1.10
+instances in each leaf node:  349 11 118 526 
+
+ ind 67: perfdegrad = 72558.76, nodeLowRepres = 140.06055776892433, max distance = 1.13
+instances in each leaf node:  700 60 71 75 16 12 24 22 11 13 
+
+ ind 68: perfdegrad = 51640.85, nodeLowRepres = 206.76414342629485, max distance = 1.07
+instances in each leaf node:  27 147 216 15 261 73 77 18 29 78 18 10 14 10 11 
+
+ ind 69: perfdegrad = 74467.09, nodeLowRepres = 26.104382470119525, max distance = 1.24
+instances in each leaf node:  453 71 370 96 14 
+
+ ind 70: perfdegrad = 82043.13, nodeLowRepres = 11.666135458167332, max distance = 1.09
+instances in each leaf node:  26 624 354 
+
+ ind 71: perfdegrad = 75647.85, nodeLowRepres = 59.87171314741036, max distance = 1.36
+instances in each leaf node:  767 138 16 42 19 22 
+
+ ind 72: perfdegrad = 55224.94, nodeLowRepres = 360.199203187251, max distance = 1.31
+instances in each leaf node:  167 62 27 164 20 26 54 10 21 13 13 10 318 15 11 17 10 21 11 14 
+
+ ind 73: perfdegrad = 84734.41, nodeLowRepres = 46.929880478087654, max distance = 0.98
+instances in each leaf node:  840 131 10 23 
+
+ ind 74: perfdegrad = 81100.61, nodeLowRepres = 0, max distance = 1.05
+instances in each leaf node:  261 743 
+
+ ind 75: perfdegrad = 84854.44, nodeLowRepres = 8.128286852589644, max distance = 0.99
+instances in each leaf node:  974 30 
+
+ ind 76: perfdegrad = 88203.65, nodeLowRepres = 0, max distance = 1.36
+instances in each leaf node:  856 148 
+
+ ind 77: perfdegrad = 73983.60, nodeLowRepres = 0, max distance = 1.21
+instances in each leaf node:  110 160 112 622 
+
+ ind 78: perfdegrad = 82089.10, nodeLowRepres = 0, max distance = 1.08
+instances in each leaf node:  416 588 
+
+ ind 79: perfdegrad = 72253.79, nodeLowRepres = 52.141832669322724, max distance = 1.19
+instances in each leaf node:  255 349 21 331 38 10 
+
+ ind 80: perfdegrad = 84667.86, nodeLowRepres = 73.8589641434263, max distance = 1.02
+instances in each leaf node:  589 21 304 15 65 10 
+
+ ind 81: perfdegrad = 86971.81, nodeLowRepres = 0, max distance = 1.05
+instances in each leaf node:  462 542 
+
+ ind 82: perfdegrad = 75991.63, nodeLowRepres = 75.04223107569722, max distance = 1.27
+instances in each leaf node:  584 375 20 10 15 
+
+ ind 83: perfdegrad = 91962.36, nodeLowRepres = 24.682071713147412, max distance = 1.23
+instances in each leaf node:  320 15 669 
+
+ ind 84: perfdegrad = 77449.48, nodeLowRepres = 81.66852589641437, max distance = 1.09
+instances in each leaf node:  783 13 77 68 28 24 11 
+
+ ind 85: perfdegrad = 71526.43, nodeLowRepres = 23.2996015936255, max distance = 1.34
+instances in each leaf node:  55 658 108 167 16 
+
+ ind 86: perfdegrad = 84035.36, nodeLowRepres = 75.94661354581675, max distance = 1.17
+instances in each leaf node:  741 219 15 11 18 
+
+ ind 87: perfdegrad = 84012.45, nodeLowRepres = 0, max distance = 1.07
+instances in each leaf node:  54 750 200 
+
+ ind 88: perfdegrad = 75006.39, nodeLowRepres = 80.80398406374503, max distance = 1.23
+instances in each leaf node:  240 198 489 32 17 13 15 
+
+ ind 89: perfdegrad = 76617.92, nodeLowRepres = 23.2996015936255, max distance = 0.97
+instances in each leaf node:  495 424 16 69 
+
+ ind 90: perfdegrad = 75321.24, nodeLowRepres = 2.0725099601593637, max distance = 1.20
+instances in each leaf node:  194 203 567 40 
+
+ ind 91: perfdegrad = 67514.18, nodeLowRepres = 22.95697211155379, max distance = 1.28
+instances in each leaf node:  186 48 17 198 142 325 88 
+
+ ind 92: perfdegrad = 80550.14, nodeLowRepres = 0, max distance = 1.04
+instances in each leaf node:  558 446 
+
+ ind 93: perfdegrad = 73456.91, nodeLowRepres = 137.0167330677291, max distance = 1.14
+instances in each leaf node:  671 170 11 20 18 63 24 11 16 
+
+ ind 94: perfdegrad = 77675.16, nodeLowRepres = 28.599203187251, max distance = 1.29
+instances in each leaf node:  77 798 13 43 73 
+
+ ind 95: perfdegrad = 78122.70, nodeLowRepres = 66.79920318725101, max distance = 1.01
+instances in each leaf node:  511 25 441 10 17 
+
+ ind 96: perfdegrad = 81801.43, nodeLowRepres = 0, max distance = 0.97
+instances in each leaf node:  939 65 
+
+ ind 97: perfdegrad = 83081.57, nodeLowRepres = 121.48207171314742, max distance = 1.27
+instances in each leaf node:  814 48 10 11 19 13 27 62 
+
+ ind 98: perfdegrad = 73105.39, nodeLowRepres = 67.95458167330678, max distance = 1.43
+instances in each leaf node:  952 28 12 12 
+
+ ind 99: perfdegrad = 78298.78, nodeLowRepres = 12.650199203187254, max distance = 1.14
+instances in each leaf node:  336 555 88 25 
+
+------------------------------
+f0 = [24, 65]
+f1 = [6, 89, 96]
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 0] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 1] Sem melhora consecutiva: 1
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 2] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 3] Sem melhora consecutiva: 1
+[Geração 4] Sem melhora consecutiva: 2
+[Geração 5] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 6] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 7] Sem melhora consecutiva: 0
+[Geração 8] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 9] Sem melhora consecutiva: 0
+[Geração 10] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 11] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 12] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 13] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 14] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 15] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 16] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 17] Sem melhora consecutiva: 0
+[Geração 18] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 19] Sem melhora consecutiva: 0
+[Geração 20] Sem melhora consecutiva: 1
+[Geração 21] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 22] Sem melhora consecutiva: 1
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 23] Sem melhora consecutiva: 0
+[Geração 24] Sem melhora consecutiva: 0
+[Geração 25] Sem melhora consecutiva: 1
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 26] Sem melhora consecutiva: 2
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 27] Sem melhora consecutiva: 3
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 28] Sem melhora consecutiva: 4
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 29] Sem melhora consecutiva: 5
+[Geração 30] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 31] Sem melhora consecutiva: 1
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 32] Sem melhora consecutiva: 2
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 33] Sem melhora consecutiva: 3
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 34] Sem melhora consecutiva: 4
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 35] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 36] Sem melhora consecutiva: 1
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 37] Sem melhora consecutiva: 2
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 38] Sem melhora consecutiva: 3
+[Geração 39] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 40] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 41] Sem melhora consecutiva: 1
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 42] Sem melhora consecutiva: 2
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 43] Sem melhora consecutiva: 3
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 44] Sem melhora consecutiva: 4
+[Geração 45] Sem melhora consecutiva: 5
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 46] Sem melhora consecutiva: 6
+[Geração 47] Sem melhora consecutiva: 0
+[Geração 48] Sem melhora consecutiva: 0
+[Geração 49] Sem melhora consecutiva: 1
+[Geração 50] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 51] Sem melhora consecutiva: 1
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 52] Sem melhora consecutiva: 2
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 53] Sem melhora consecutiva: 3
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 54] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 55] Sem melhora consecutiva: 0
+[Geração 56] Sem melhora consecutiva: 1
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 57] Sem melhora consecutiva: 2
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 58] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 59] Sem melhora consecutiva: 1
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 60] Sem melhora consecutiva: 2
+[Geração 61] Sem melhora consecutiva: 3
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 62] Sem melhora consecutiva: 4
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 63] Sem melhora consecutiva: 5
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 64] Sem melhora consecutiva: 6
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 65] Sem melhora consecutiva: 7
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 66] Sem melhora consecutiva: 0
+[Geração 67] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 68] Sem melhora consecutiva: 1
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 69] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 70] Sem melhora consecutiva: 1
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 71] Sem melhora consecutiva: 2
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 72] Sem melhora consecutiva: 3
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 73] Sem melhora consecutiva: 4
+[Geração 74] Sem melhora consecutiva: 5
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 75] Sem melhora consecutiva: 6
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 76] Sem melhora consecutiva: 7
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 77] Sem melhora consecutiva: 8
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 78] Sem melhora consecutiva: 9
+[Geração 79] Sem melhora consecutiva: 10
+[Geração 80] Sem melhora consecutiva: 11
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 81] Sem melhora consecutiva: 12
+[Geração 82] Sem melhora consecutiva: 0
+[Geração 83] Sem melhora consecutiva: 1
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 84] Sem melhora consecutiva: 2
+[Geração 85] Sem melhora consecutiva: 3
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 86] Sem melhora consecutiva: 4
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 87] Sem melhora consecutiva: 5
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 88] Sem melhora consecutiva: 6
+[Geração 89] Sem melhora consecutiva: 7
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 90] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 91] Sem melhora consecutiva: 1
+[Geração 92] Sem melhora consecutiva: 2
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 93] Sem melhora consecutiva: 3
+[Geração 94] Sem melhora consecutiva: 4
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 95] Sem melhora consecutiva: 5
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 96] Sem melhora consecutiva: 6
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 97] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 98] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 99] Sem melhora consecutiva: 1
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 100] Sem melhora consecutiva: 2
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 101] Sem melhora consecutiva: 3
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 102] Sem melhora consecutiva: 4
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 103] Sem melhora consecutiva: 5
+[Geração 104] Sem melhora consecutiva: 6
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 105] Sem melhora consecutiva: 7
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 106] Sem melhora consecutiva: 8
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 107] Sem melhora consecutiva: 9
+[Geração 108] Sem melhora consecutiva: 10
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 109] Sem melhora consecutiva: 11
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 110] Sem melhora consecutiva: 12
+[Geração 111] Sem melhora consecutiva: 13
+[Geração 112] Sem melhora consecutiva: 14
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 113] Sem melhora consecutiva: 15
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 114] Sem melhora consecutiva: 16
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 115] Sem melhora consecutiva: 17
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 116] Sem melhora consecutiva: 18
+[Geração 117] Sem melhora consecutiva: 19
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 118] Sem melhora consecutiva: 20
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 119] Sem melhora consecutiva: 21
+[Geração 120] Sem melhora consecutiva: 22
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 121] Sem melhora consecutiva: 23
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 122] Sem melhora consecutiva: 24
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 123] Sem melhora consecutiva: 25
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 124] Sem melhora consecutiva: 26
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 125] Sem melhora consecutiva: 27
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 126] Sem melhora consecutiva: 28
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 127] Sem melhora consecutiva: 29
+[Geração 128] Sem melhora consecutiva: 30
+[Geração 129] Sem melhora consecutiva: 31
+[Geração 130] Sem melhora consecutiva: 32
+[Geração 131] Sem melhora consecutiva: 33
+[Geração 132] Sem melhora consecutiva: 34
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 133] Sem melhora consecutiva: 35
+[Geração 134] Sem melhora consecutiva: 36
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 135] Sem melhora consecutiva: 37
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 136] Sem melhora consecutiva: 38
+[Geração 137] Sem melhora consecutiva: 39
+[Geração 138] Sem melhora consecutiva: 40
+[Geração 139] Sem melhora consecutiva: 41
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 140] Sem melhora consecutiva: 42
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 141] Sem melhora consecutiva: 43
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 142] Sem melhora consecutiva: 44
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 143] Sem melhora consecutiva: 45
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 144] Sem melhora consecutiva: 46
+[Geração 145] Sem melhora consecutiva: 47
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 146] Sem melhora consecutiva: 48
+[Geração 147] Sem melhora consecutiva: 0
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 148] Sem melhora consecutiva: 1
+[Geração 149] Sem melhora consecutiva: 2
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 150] Sem melhora consecutiva: 3
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 151] Sem melhora consecutiva: 4
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 152] Sem melhora consecutiva: 5
+[Geração 153] Sem melhora consecutiva: 6
+[Geração 154] Sem melhora consecutiva: 7
+[Geração 155] Sem melhora consecutiva: 8
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 156] Sem melhora consecutiva: 9
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 157] Sem melhora consecutiva: 10
+[Geração 158] Sem melhora consecutiva: 11
+[Geração 159] Sem melhora consecutiva: 12
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 160] Sem melhora consecutiva: 13
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 161] Sem melhora consecutiva: 14
+[Geração 162] Sem melhora consecutiva: 15
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 163] Sem melhora consecutiva: 16
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 164] Sem melhora consecutiva: 17
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 165] Sem melhora consecutiva: 18
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 166] Sem melhora consecutiva: 19
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 167] Sem melhora consecutiva: 20
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 168] Sem melhora consecutiva: 21
+[Geração 169] Sem melhora consecutiva: 22
+[Geração 170] Sem melhora consecutiva: 23
+[Geração 171] Sem melhora consecutiva: 24
+[Geração 172] Sem melhora consecutiva: 25
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 173] Sem melhora consecutiva: 26
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 174] Sem melhora consecutiva: 27
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 175] Sem melhora consecutiva: 28
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 176] Sem melhora consecutiva: 29
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 177] Sem melhora consecutiva: 30
+[Geração 178] Sem melhora consecutiva: 31
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 179] Sem melhora consecutiva: 32
+[Geração 180] Sem melhora consecutiva: 33
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 181] Sem melhora consecutiva: 34
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 182] Sem melhora consecutiva: 35
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 183] Sem melhora consecutiva: 36
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 184] Sem melhora consecutiva: 37
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 185] Sem melhora consecutiva: 38
+[Geração 186] Sem melhora consecutiva: 39
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 187] Sem melhora consecutiva: 40
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 188] Sem melhora consecutiva: 41
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 189] Sem melhora consecutiva: 42
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 190] Sem melhora consecutiva: 43
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 191] Sem melhora consecutiva: 44
+[Geração 192] Sem melhora consecutiva: 45
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 193] Sem melhora consecutiva: 46
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 194] Sem melhora consecutiva: 47
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 195] Sem melhora consecutiva: 48
+Entrou aqui: 2 indivíduos são iguais em fronteira e crowding distance!
+[Geração 196] Sem melhora consecutiva: 49
+[Geração 197] Sem melhora consecutiva: 50
+ ind 0: perfdegrad = 81914.24, nodeLowRepres = 0, max distance = 0.55
+instances in each leaf node:  178 643 57 57 69 
+
+ ind 1: perfdegrad = 74324.51, nodeLowRepres = 2, max distance = 0.37
+instances in each leaf node:  138 553 51 47 96 47 72 
+
+ ind 2: perfdegrad = 74324.51, nodeLowRepres = 1, max distance = 0.39
+instances in each leaf node:  553 51 47 96 138 68 51 
+
+ ind 3: perfdegrad = 74230.05, nodeLowRepres = 3, max distance = 0.37
+instances in each leaf node:  553 51 47 96 48 90 47 72 
+
+ ind 4: perfdegrad = 58070.62, nodeLowRepres = 2, max distance = 0.38
+instances in each leaf node:  138 51 47 96 177 47 72 188 70 51 67 
+
+ ind 5: perfdegrad = 58357.41, nodeLowRepres = 1, max distance = 0.39
+instances in each leaf node:  138 51 47 96 177 68 51 118 86 118 54 
+
+ ind 6: perfdegrad = 63721.57, nodeLowRepres = 0, max distance = 0.55
+instances in each leaf node:  178 57 200 57 69 198 123 52 70 
+
+ ind 7: perfdegrad = 74230.05, nodeLowRepres = 2, max distance = 0.39
+instances in each leaf node:  553 51 47 96 48 90 68 51 
+
+ ind 8: perfdegrad = 73417.46, nodeLowRepres = 4, max distance = 0.37
+instances in each leaf node:  553 51 47 138 47 72 49 47 
+
+ ind 9: perfdegrad = 57998.63, nodeLowRepres = 3, max distance = 0.38
+instances in each leaf node:  51 47 96 48 90 177 47 72 118 188 70 
+
+ ind 10: perfdegrad = 65894.36, nodeLowRepres = 1, max distance = 0.40
+instances in each leaf node:  51 47 96 84 54 206 68 51 254 93 
+
+ ind 11: perfdegrad = 80879.83, nodeLowRepres = 0, max distance = 0.56
+instances in each leaf node:  643 57 118 60 57 69 
+
+ ind 12: perfdegrad = 63959.89, nodeLowRepres = 2.6860557768924314, max distance = 0.39
+instances in each leaf node:  138 51 47 96 177 68 51 258 77 41 
+
+ ind 13: perfdegrad = 58334.94, nodeLowRepres = 2, max distance = 0.39
+instances in each leaf node:  138 51 47 96 177 47 72 86 51 67 118 54 
+
+ ind 14: perfdegrad = 73558.20, nodeLowRepres = 4.072509960159364, max distance = 0.37
+instances in each leaf node:  138 553 51 47 47 72 56 40 
+
+ ind 15: perfdegrad = 57710.33, nodeLowRepres = 3.6860557768924314, max distance = 0.38
+instances in each leaf node:  138 51 47 96 177 47 72 188 70 77 41 
+
+ ind 16: perfdegrad = 66766.68, nodeLowRepres = 1, max distance = 0.40
+instances in each leaf node:  138 51 47 96 177 68 51 280 96 
+
+ ind 17: perfdegrad = 59492.75, nodeLowRepres = 0, max distance = 0.56
+instances in each leaf node:  178 57 390 57 69 92 161 
+
+ ind 18: perfdegrad = 73417.46, nodeLowRepres = 3, max distance = 0.39
+instances in each leaf node:  553 51 47 138 68 51 49 47 
+
+ ind 19: perfdegrad = 65894.36, nodeLowRepres = 2, max distance = 0.40
+instances in each leaf node:  51 47 96 84 54 206 47 72 254 93 
+
+ ind 20: perfdegrad = 73546.32, nodeLowRepres = 4.964940239043825, max distance = 0.37
+instances in each leaf node:  138 553 51 47 47 72 38 58 
+
+ ind 21: perfdegrad = 57186.04, nodeLowRepres = 4, max distance = 0.38
+instances in each leaf node:  138 51 47 177 47 72 49 47 118 188 70 
+
+ ind 22: perfdegrad = 74312.92, nodeLowRepres = 1, max distance = 0.42
+instances in each leaf node:  553 51 47 96 138 57 62 
+
+ ind 23: perfdegrad = 69561.28, nodeLowRepres = 0, max distance = 0.56
+instances in each leaf node:  178 57 200 57 69 122 55 266 
+
+ ind 24: perfdegrad = 58262.95, nodeLowRepres = 3, max distance = 0.39
+instances in each leaf node:  51 47 96 48 90 177 47 72 118 86 118 54 
+
+ ind 25: perfdegrad = 73558.20, nodeLowRepres = 3.0725099601593637, max distance = 0.39
+instances in each leaf node:  138 553 51 47 68 51 56 40 
+
+ ind 26: perfdegrad = 66766.68, nodeLowRepres = 2, max distance = 0.40
+instances in each leaf node:  138 51 47 96 177 47 72 280 96 
+
+ ind 27: perfdegrad = 65886.85, nodeLowRepres = 2.339442231075698, max distance = 0.40
+instances in each leaf node:  51 47 84 54 206 68 51 54 42 254 93 
+
+ ind 28: perfdegrad = 72638.65, nodeLowRepres = 5, max distance = 0.37
+instances in each leaf node:  553 51 47 90 48 47 72 49 47 
+
+ ind 29: perfdegrad = 61493.83, nodeLowRepres = 4.072509960159364, max distance = 0.38
+instances in each leaf node:  138 51 47 96 177 47 72 118 40 218 
+
+ ind 30: perfdegrad = 66473.87, nodeLowRepres = 1, max distance = 0.42
+instances in each leaf node:  138 51 47 96 239 57 62 128 186 
+
+ ind 31: perfdegrad = 74645.69, nodeLowRepres = 0, max distance = 0.57
+instances in each leaf node:  57 118 60 239 57 69 304 100 
+
+ ind 32: perfdegrad = 57615.87, nodeLowRepres = 3.6860557768924314, max distance = 0.39
+instances in each leaf node:  51 47 96 48 90 177 68 51 188 70 77 41 
+
+ ind 33: perfdegrad = 57568.63, nodeLowRepres = 3.0725099601593637, max distance = 0.39
+instances in each leaf node:  138 51 47 177 68 51 56 40 86 51 67 118 54 
+
+ ind 34: perfdegrad = 64987.31, nodeLowRepres = 3, max distance = 0.40
+instances in each leaf node:  51 47 84 54 206 68 51 49 47 254 93 
+
+ ind 35: perfdegrad = 74185.88, nodeLowRepres = 2, max distance = 0.40
+instances in each leaf node:  138 46 47 96 553 73 51 
+
+ ind 36: perfdegrad = 73463.74, nodeLowRepres = 5.072509960159364, max distance = 0.37
+instances in each leaf node:  553 51 47 48 90 47 72 56 40 
+
+ ind 37: perfdegrad = 57615.87, nodeLowRepres = 4.686055776892431, max distance = 0.38
+instances in each leaf node:  51 47 96 48 90 177 47 72 188 70 77 41 
+
+ ind 38: perfdegrad = 65649.30, nodeLowRepres = 1, max distance = 0.44
+instances in each leaf node:  138 51 47 96 376 177 52 67 
+
+ ind 39: perfdegrad = 80860.68, nodeLowRepres = 0, max distance = 0.57
+instances in each leaf node:  643 57 115 63 57 69 
+
+ ind 40: perfdegrad = 73323.00, nodeLowRepres = 4, max distance = 0.39
+instances in each leaf node:  553 51 47 48 90 68 51 49 47 
+
+ ind 41: perfdegrad = 57974.65, nodeLowRepres = 3.6860557768924314, max distance = 0.39
+instances in each leaf node:  138 51 47 96 177 47 72 86 77 41 118 54 
+
+ ind 42: perfdegrad = 66672.22, nodeLowRepres = 3, max distance = 0.40
+instances in each leaf node:  51 47 96 48 90 177 47 72 280 96 
+
+ ind 43: perfdegrad = 65128.05, nodeLowRepres = 3.0725099601593637, max distance = 0.40
+instances in each leaf node:  51 47 84 54 206 68 51 56 40 254 93 
+
+ ind 44: perfdegrad = 74324.51, nodeLowRepres = 2, max distance = 0.40
+instances in each leaf node:  553 51 47 96 138 49 70 
+
+ ind 45: perfdegrad = 73204.37, nodeLowRepres = 5.470916334661355, max distance = 0.37
+instances in each leaf node:  138 553 51 47 47 72 59 37 
+
+ ind 46: perfdegrad = 65651.23, nodeLowRepres = 4.964940239043825, max distance = 0.38
+instances in each leaf node:  51 47 96 100 38 376 177 47 72 
+
+ ind 47: perfdegrad = 74324.50, nodeLowRepres = 1, max distance = 0.46
+instances in each leaf node:  138 553 51 47 96 63 56 
+
+ ind 48: perfdegrad = 87377.76, nodeLowRepres = 0, max distance = 0.57
+instances in each leaf node:  691 143 119 51 
+
+ ind 49: perfdegrad = 73463.74, nodeLowRepres = 4.072509960159364, max distance = 0.39
+instances in each leaf node:  553 51 47 48 90 68 51 56 40 
+
+ ind 50: perfdegrad = 57355.90, nodeLowRepres = 4, max distance = 0.39
+instances in each leaf node:  51 47 48 90 177 68 51 49 47 118 86 118 54 
+
+ ind 51: perfdegrad = 65116.17, nodeLowRepres = 3.9649402390438255, max distance = 0.40
+instances in each leaf node:  51 47 84 54 206 68 51 38 58 254 93 
+
+ ind 52: perfdegrad = 74091.42, nodeLowRepres = 3, max distance = 0.40
+instances in each leaf node:  553 46 47 96 48 90 73 51 
+
+ ind 53: perfdegrad = 66000.37, nodeLowRepres = 3.0725099601593637, max distance = 0.40
+instances in each leaf node:  138 51 47 177 68 51 56 40 280 96 
+
+ ind 54: perfdegrad = 74218.46, nodeLowRepres = 2, max distance = 0.42
+instances in each leaf node:  553 51 47 96 48 90 57 62 
+
+ ind 55: perfdegrad = 72272.66, nodeLowRepres = 5.686055776892431, max distance = 0.37
+instances in each leaf node:  138 51 47 512 41 47 72 49 47 
+
+ ind 56: perfdegrad = 57091.58, nodeLowRepres = 5, max distance = 0.38
+instances in each leaf node:  51 47 48 90 177 72 49 47 118 47 188 70 
+
+ ind 57: perfdegrad = 72925.86, nodeLowRepres = 1, max distance = 0.46
+instances in each leaf node:  51 47 96 138 457 96 57 62 
+
+ ind 58: perfdegrad = 71082.95, nodeLowRepres = 0, max distance = 0.57
+instances in each leaf node:  57 115 63 282 57 69 168 193 
+
+ ind 59: perfdegrad = 73204.37, nodeLowRepres = 4.470916334661355, max distance = 0.39
+instances in each leaf node:  553 51 47 138 68 51 59 37 
+
+ ind 60: perfdegrad = 57496.64, nodeLowRepres = 4.072509960159364, max distance = 0.39
+instances in each leaf node:  51 47 48 90 177 68 51 56 40 118 86 118 54 
+
+ ind 61: perfdegrad = 64987.31, nodeLowRepres = 4, max distance = 0.40
+instances in each leaf node:  51 47 84 54 206 47 72 49 47 254 93 
+
+ ind 62: perfdegrad = 74230.05, nodeLowRepres = 3, max distance = 0.40
+instances in each leaf node:  553 51 47 96 48 90 49 70 
+
+ ind 63: perfdegrad = 57571.70, nodeLowRepres = 3.6860557768924314, max distance = 0.40
+instances in each leaf node:  138 46 47 96 177 73 51 188 70 77 41 
+
+ ind 64: perfdegrad = 57698.74, nodeLowRepres = 2.6860557768924314, max distance = 0.42
+instances in each leaf node:  138 51 47 96 177 57 62 188 70 77 41 
+
+ ind 65: perfdegrad = 65695.06, nodeLowRepres = 2, max distance = 0.42
+instances in each leaf node:  51 47 96 90 48 239 57 62 128 186 
+
+ ind 66: perfdegrad = 66693.41, nodeLowRepres = 5.964940239043825, max distance = 0.37
+instances in each leaf node:  51 47 96 48 90 351 47 72 164 38 
+
+ ind 67: perfdegrad = 61399.37, nodeLowRepres = 5.072509960159364, max distance = 0.38
+instances in each leaf node:  51 47 96 48 90 177 47 72 118 40 218 
+
+ ind 68: perfdegrad = 74279.16, nodeLowRepres = 1, max distance = 0.46
+instances in each leaf node:  553 51 47 96 138 62 57 
+
+ ind 69: perfdegrad = 81925.81, nodeLowRepres = 0, max distance = 0.58
+instances in each leaf node:  178 643 57 64 62 
+
+ ind 70: perfdegrad = 63052.84, nodeLowRepres = 4.686055776892431, max distance = 0.39
+instances in each leaf node:  138 51 47 177 68 51 49 47 258 77 41 
+
+ ind 71: perfdegrad = 65859.63, nodeLowRepres = 4, max distance = 0.40
+instances in each leaf node:  138 51 47 177 47 72 49 47 280 96 
+
+ ind 72: perfdegrad = 65128.05, nodeLowRepres = 4.072509960159364, max distance = 0.40
+instances in each leaf node:  51 47 84 54 206 47 72 56 40 254 93 
+
+ ind 73: perfdegrad = 57710.33, nodeLowRepres = 3.6860557768924314, max distance = 0.40
+instances in each leaf node:  138 51 47 96 177 49 70 188 70 77 41 
+
+ ind 74: perfdegrad = 73405.87, nodeLowRepres = 3, max distance = 0.42
+instances in each leaf node:  553 51 47 138 57 62 49 47 
+
+ ind 75: perfdegrad = 72864.62, nodeLowRepres = 2, max distance = 0.44
+instances in each leaf node:  553 51 47 96 48 90 52 67 
+
+ ind 76: perfdegrad = 69730.90, nodeLowRepres = 2.032669322709164, max distance = 0.42
+instances in each leaf node:  138 51 47 96 239 57 62 220 51 43 
+
+ ind 77: perfdegrad = 72800.41, nodeLowRepres = 6.016733067729085, max distance = 0.37
+instances in each leaf node:  553 51 47 138 47 72 36 60 
+
+ ind 78: perfdegrad = 63222.51, nodeLowRepres = 5.470916334661355, max distance = 0.38
+instances in each leaf node:  138 51 47 177 47 72 59 37 258 118 
+
+ ind 79: perfdegrad = 74324.49, nodeLowRepres = 1, max distance = 0.49
+instances in each leaf node:  138 553 51 47 96 67 52 
+
+ ind 80: perfdegrad = 62320.37, nodeLowRepres = 0, max distance = 0.58
+instances in each leaf node:  178 57 200 59 67 198 123 52 70 
+
+ ind 81: perfdegrad = 56944.02, nodeLowRepres = 4.758565737051795, max distance = 0.39
+instances in each leaf node:  138 51 47 177 68 51 56 40 188 70 77 41 
+
+ ind 82: perfdegrad = 73278.83, nodeLowRepres = 4, max distance = 0.40
+instances in each leaf node:  553 46 47 138 73 51 49 47 
+
+ ind 83: perfdegrad = 64774.22, nodeLowRepres = 4.470916334661355, max distance = 0.40
+instances in each leaf node:  51 47 84 54 206 68 51 59 37 254 93 
+
+ ind 84: perfdegrad = 66000.37, nodeLowRepres = 4.072509960159364, max distance = 0.40
+instances in each leaf node:  138 51 47 177 47 72 56 40 280 96 
+
+ ind 85: perfdegrad = 61482.24, nodeLowRepres = 3.0725099601593637, max distance = 0.42
+instances in each leaf node:  138 51 47 96 177 57 62 118 40 218 
+
+ ind 86: perfdegrad = 73634.89, nodeLowRepres = 2, max distance = 0.45
+instances in each leaf node:  51 47 96 48 90 378 175 57 62 
+
+ ind 87: perfdegrad = 68377.06, nodeLowRepres = 2.032669322709164, max distance = 0.44
+instances in each leaf node:  138 51 47 96 239 52 67 220 51 43 
+
+ ind 88: perfdegrad = 69797.19, nodeLowRepres = 3, max distance = 0.42
+instances in each leaf node:  51 47 96 90 48 314 239 47 72 
+
+ ind 89: perfdegrad = 72425.56, nodeLowRepres = 6.470916334661355, max distance = 0.37
+instances in each leaf node:  553 51 47 90 48 47 72 59 37 
+
+ ind 90: perfdegrad = 56803.28, nodeLowRepres = 5.686055776892431, max distance = 0.38
+instances in each leaf node:  138 51 47 177 47 72 49 47 188 70 77 41 
+
+ ind 91: perfdegrad = 74152.55, nodeLowRepres = 1, max distance = 0.50
+instances in each leaf node:  553 51 47 96 138 60 59 
+
+ ind 92: perfdegrad = 81656.23, nodeLowRepres = 0, max distance = 0.59
+instances in each leaf node:  143 446 245 119 51 
+
+ ind 93: perfdegrad = 87063.86, nodeLowRepres = 1, max distance = 0.55
+instances in each leaf node:  691 51 47 96 68 51 
+
+ ind 94: perfdegrad = 65872.04, nodeLowRepres = 3.032669322709164, max distance = 0.42
+instances in each leaf node:  138 51 47 96 239 57 62 170 50 51 43 
+
+ ind 95: perfdegrad = 74230.04, nodeLowRepres = 2, max distance = 0.46
+instances in each leaf node:  553 51 47 96 48 90 56 63 
+
+ ind 96: perfdegrad = 57604.28, nodeLowRepres = 3.6860557768924314, max distance = 0.42
+instances in each leaf node:  51 47 96 48 90 177 57 62 188 70 77 41 
+
+ ind 97: perfdegrad = 61355.20, nodeLowRepres = 4.072509960159364, max distance = 0.40
+instances in each leaf node:  138 46 47 96 177 73 51 118 40 218 
+
+ ind 98: perfdegrad = 73417.46, nodeLowRepres = 4, max distance = 0.40
+instances in each leaf node:  553 51 47 138 49 70 49 47 
+
+ ind 99: perfdegrad = 66693.41, nodeLowRepres = 4.964940239043825, max distance = 0.39
+instances in each leaf node:  51 47 96 48 90 351 68 51 164 38 
+
+f0 = [0, 1, 2]
+f1 = [6, 3, 4, 5]
+generations = 198
+Tempo total de execução: 3313.62 segundos
